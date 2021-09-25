@@ -1,0 +1,91 @@
+{
+    "identifier" : "Bkt_c_fp_futureTech_4_KillLooby",
+    "contents" : [
+        {
+            "words" : "Commander, the area has been cleared. Darius has given me the green light to land immediately. Hold position.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_SumireDefault",
+            "emote" : "Default",
+            "dialogueOrigin" : "pilot",
+            "audioEventEntryIndex" : 0,
+            "audioEventEntryText" : "NONE",
+            "conversationIdx" : 0,
+            "cameraFocus" : {
+                "EncounterObjectGuid" : ""
+            },
+            "revealRadius" : -1
+        },
+        {
+            "words" : "And congratulations on getting through that. I think this has to be one of the craziest missions we've been on!",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_SumireDefault",
+            "emote" : "Default",
+            "dialogueOrigin" : "pilot",
+            "audioEventEntryIndex" : 0,
+            "audioEventEntryText" : "NONE",
+            "conversationIdx" : 0,
+            "cameraFocus" : {
+                "EncounterObjectGuid" : ""
+            },
+            "revealRadius" : -1
+        },
+        {
+            "words" : "I have to admit... I was worried for a bit during the battle.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+		"b" : 1,
+		"a" : 1
+	    },
+	    "selectedCastDefId" : "castDef_MadeiraDefault",
+	    "emote" : "Default",
+	    "audioName" : "NONE",
+	    "cameraFocusGuid" : "",
+	    "cameraDistance" : "Far",
+	    "cameraHeight" : "Default",
+	    "revealRadius" : -1
+	},
+	{
+	    "words" : "That said, you've more than earned your pay and your cut of LosTech. I don't think this campaign would've succeeded without you.",
+	    "wordsColor" : {
+		"r" : 1,
+		"g" : 1,
+		"b" : 1,
+		"a" : 1
+	    },
+	    "selectedCastDefId" : "castDef_MadeiraDefault",
+	    "emote" : "Default",
+	    "audioName" : "NONE",
+	    "cameraFocusGuid" : "",
+	    "cameraDistance" : "Far",
+	    "cameraHeight" : "Default",
+	    "revealRadius" : -1
+	},
+	{
+	    "words" : "Hurry back, Commander. We're gonna party hard after this!",
+	    "wordsColor" : {
+		"r" : 1,
+		"g" : 1,
+		"b" : 1,
+		"a" : 1
+	    },
+	    "selectedCastDefId" : "castDef_DariusDefault",
+	    "emote" : "Default",
+	    "audioName" : "NONE",
+	    "cameraFocusGuid" : "",
+	    "cameraDistance" : "Far",
+	    "cameraHeight" : "Default",
+	    "revealRadius" : -1
+	}
+    ]
+}

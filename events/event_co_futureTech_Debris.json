@@ -1,0 +1,661 @@
+{
+	"Description": {
+	  "Id": "event_co_futureTech_Debris",
+	  "Name": "Debris Field",
+	  "Details": "Sumire catches your attention on the bridge. \"Commander, I've picked up what looks like debris from a battle, a fairly recent one, from the looks of it. I'd say it's at least two DropShips, maybe more.\"\r\n\r\nShe studies the display. \"Just so you know, a Restoration patrol is also in the system. They might want a look too.\"",
+	  "Icon": "uixTxrSpot_UnidentifiedObject.png"
+	},
+	"Scope": "Company",
+	"Weight": 30,
+	"Requirements": {
+	  "Scope": "Company",
+	  "RequirementTags": {
+		"items": [
+		  "flashpoint_futureTech_complete"
+		],
+		"tagSetSourceFile": ""
+	  },
+	  "ExclusionTags": {
+		"items": [
+		  "flashpoint_futureTech_cancel",
+		  "event_futureTech1",
+		  "event_futureTech2"
+		],
+		"tagSetSourceFile": "Tags/CompanyTags"
+	  },
+	  "RequirementComparisons": [
+		{
+		  "obj": "Funds",
+		  "op": "GreaterThan",
+		  "val": 10000,
+		  "valueConstant": "10000"
+		}
+	  ]
+	},
+	"AdditionalRequirements": [
+	  {
+		"Scope": "StarSystem",
+		"RequirementTags": {
+		  "items": [
+			"planet_faction_restoration",
+			"planet_other_blackmarket"
+		  ],
+		  "tagSetSourceFile": "Tags/PlanetTags"
+		},
+		"ExclusionTags": {
+		  "items": [
+			"planet_event_pox",
+			"planet_other_plague",
+			"planet_pop_none"
+		  ],
+		  "tagSetSourceFile": "Tags/PlanetTags"
+		},
+		"RequirementComparisons": []
+	  }
+	],
+	"AdditionalObjects": [],
+	"Options": [
+	  {
+		"Description": {
+		  "Id": "outcome_0",
+		  "Name": "Stay out of it.",
+		  "Details": "Non-participation Option",
+		  "Icon": ""
+		},
+		"RequirementList": [],
+		"ResultSets": [
+		  {
+			"Description": {
+			  "Id": "outcome_0_0",
+			  "Name": "Nothing happens",
+			  "Details": "You tell Sumire to avoid the debris. The <i>Argo</i> isn't a DropShip meant for battle, and whoever started the fight might be back, sooner rather than later.",
+			  "Icon": ""
+			},
+			"Weight": 100,
+			"Results": [
+			  {
+				"Scope": "Company",
+				"Requirements": {},
+				"AddedTags": {
+				  "items": [
+					"event_futureTech1"
+				  ],
+				  "tagSetSourceFile": "Tags/CompanyTags"
+				},
+				"RemovedTags": {
+				  "items": null,
+				  "tagSetSourceFile": ""
+				},
+				"Stats": null,
+				"Actions": null,
+				"ForceEvents": null,
+				"TemporaryResult": false,
+				"ResultDuration": 0
+			  }
+			]
+		  }
+		],
+		"Requirements": {
+		  "Scope": "Company",
+		  "RequirementTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		  },
+		  "ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		  },
+		  "RequirementComparisons": []
+		}
+	  },
+	  {
+		"Description": {
+		  "Id": "outcome_1",
+		  "Name": "Investigate carefully.",
+		  "Details": "Safe option",
+		  "Icon": ""
+		},
+		"RequirementList": [],
+		"ResultSets": [
+		  {
+			"Description": {
+			  "Id": "outcome_1_0",
+			  "Name": "No attention drawn",
+			  "Details": "When the <i>Argo</i> arrives at the debris field, you discover two badly damaged DropShips.\r\n\r\nWhile you keep an eye out for anyone approaching, your tech staff manages to salvage a treasure trove of equipment and even Mechs from the mangled DropShips.\r\n\r\nYou discover that one of the DropShips belonged to the LosTech hoarding pirates on Appian, but what you've got is beyond that - it's Future Tech.",
+			  "Icon": ""
+			},
+			"Weight": 100,
+			"Results": [
+			  {
+				"Scope": "Company",
+				"Requirements": {
+				  "items": [
+					"flashpoint_futureTech_half"
+				  ]
+				},
+				"AddedTags": {
+				  "items": null,
+				  "tagSetSourceFile": "Tags/CompanyTags"
+				},
+				"RemovedTags": {
+				  "items": null,
+				  "tagSetSourceFile": ""
+				},
+				"Stats": [
+				  {
+					"typeString": "System.Int32",
+					"name": "Funds",
+					"value": "500000",
+					"set": false,
+					"valueConstant": null
+				  }
+				],
+				"Actions": [
+					{
+						"Type" : "System_ShowRewards",
+						"value" : "itemCollection_loot_FP_event1-0",
+						"valueConstant" : null,
+						"additionalValues" : null
+					},
+				  {
+					"Type": "System_PauseNotification",
+					"value": "Great news, Commander. Once we got inside those wrecks, we found a pair of intact [[DM.MechDefs[mechdef_blackknight_BL-6b-KNT],Black Knight]]s, a [[DM.MechDefs[mechdef_rifleman_RFL-3N],Rifleman]], and a [[DM.MechDefs[mechdef_hunchback_HBK-4P],Hunchback]]. It'll take a bit of work, but we'll get them ready for combat. Swing by the Mech Bay to check them out and order a Refit.",
+					"additionalValues": [
+					  "Black Knight BL-6B-KNT",
+					  "Black Knight BL-6B-KNT",
+					  "Rifleman RFL-3N",
+					  "Hunchback HBK-4P",
+					  "castDef_YangDefault"
+					],
+					"valueConstant": null
+				  },
+				  {
+					"Type": "Mech_AddRoster",
+					"value": "mechdef_blackknight_BL-6b-KNT",
+					"valueConstant": null,
+					"additionalValues": null
+				  },
+				  {
+					"Type": "Mech_AddRoster",
+					"value": "mechdef_blackknight_BL-6b-KNT",
+					"valueConstant": null,
+					"additionalValues": null
+				  },
+				  {
+					"Type": "Mech_AddRoster",
+					"value": "mechdef_rifleman_RFL-3N",
+					"valueConstant": null,
+					"additionalValues": null
+				  },
+				  {
+					"Type": "Mech_AddRoster",
+					"value": "mechdef_hunchback_HBK-4P",
+					"valueConstant": null,
+					"additionalValues": null
+				  }				  
+				],
+				"ForceEvents": null,
+				"TemporaryResult": false,
+				"ResultDuration": 0
+			  },
+			  {
+				"Scope": "Company",
+				"Requirements": {},
+				"AddedTags": {
+				  "items": [
+					"event_futureTech1"
+				  ],
+				  "tagSetSourceFile": "Tags/CompanyTags"
+				},
+				"RemovedTags": {
+				  "items": null,
+				  "tagSetSourceFile": ""
+				},
+				"Stats": null,
+				"Actions": null,
+				"ForceEvents": null,
+				"TemporaryResult": false,
+				"ResultDuration": 0
+			  }
+			]
+		  },
+		  {
+			"Description": {
+			  "Id": "outcome_1_1",
+			  "Name": "No attention drawn",
+			  "Details": "When the <i>Argo</i> arrives at the debris field, you discover two badly damaged DropShips.\r\n\r\nWhile you keep an eye out for anyone approaching, your tech staff manages to salvage a treasure trove of equipment and even Mechs from the mangled DropShips.\r\n\r\nUpon finding out that one of the DropShips belonged to the pirates on Appian, you prioritize hauling away Future Tech and focus Mech recovery on the other DropShip.\r\n\r\nYou leave a decent amount of Future Tech and the pirates' Mechs for the Aurigans to find... once the <i>Argo</i>'s out of the system.",
+			  "Icon": ""
+			},
+			"Weight": 100,
+			"Results": [
+			  {
+				"Scope": "Company",
+				"Requirements": {
+				  "items": [
+					"flashpoint_futureTech_complete"
+				  ],
+				  "AddedTags": {
+					"items": null,
+					"tagSetSourceFile": "Tags/CompanyTags"
+				  },
+				  "RemovedTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				  },
+				  "Stats": [
+					{
+					  "typeString": "System.Int32",
+					  "name": "Funds",
+					  "value": "500000",
+					  "set": false,
+					  "valueConstant": null
+					}
+				  ],
+				  "Actions": [
+					{
+						"Type" : "System_ShowRewards",
+						"value" : "itemCollection_loot_FP_event1-1",
+						"valueConstant" : null,
+						"additionalValues" : null
+					},
+					{
+					  "Type": "System_PauseNotification",
+					  "value": "Great news, Commander. Once we got inside the wreck of whoever attacked those pirates, we found a pair of intact [[DM.MechDefs[mechdef_blackknight_BL-6b-KNT],Black Knight]]s and a pair of [[DM.MechDefs[mechdef_griffin_GRF-4N],Griffin]s. All with SLDF Royal grade equipment. Wonder how these wound up out here in the Periphery.",
+					  "additionalValues": [
+						"Black Knight BL-6B-KNT",
+						"Black Knight BL-6B-KNT",
+						"Griffin GRF-2N",
+						"Griffin GRF-2N",
+						"castDef_YangDefault"
+					  ],
+					  "valueConstant": null
+					},
+					{
+					  "Type": "Mech_AddRoster",
+					  "value": "mechdef_blackknight_BL-6b-KNT",
+					  "valueConstant": null,
+					  "additionalValues": null
+					},
+					{
+					  "Type": "Mech_AddRoster",
+					  "value": "mechdef_blackknight_BL-6b-KNT",
+					  "valueConstant": null,
+					  "additionalValues": null
+					},
+					{
+					  "Type": "Mech_AddRoster",
+					  "value": "mechdef_griffin_GRF-4N",
+					  "valueConstant": null,
+					  "additionalValues": null
+					},
+					{
+					  "Type": "Mech_AddRoster",
+					  "value": "mechdef_griffin_GRF-4N",
+					  "valueConstant": null,
+					  "additionalValues": null
+					}					
+				  ],
+				  "ForceEvents": null,
+				  "TemporaryResult": false,
+				  "ResultDuration": 0
+				}
+			  },
+			  {
+				"Scope": "Company",
+				"Requirements": {},
+				"AddedTags": {
+				  "items": [
+					"event_futureTech1"
+				  ],
+				  "tagSetSourceFile": "Tags/CompanyTags"
+				},
+				"RemovedTags": {
+				  "items": null,
+				  "tagSetSourceFile": ""
+				},
+				"Stats": null,
+				"Actions": null,
+				"ForceEvents": null,
+				"TemporaryResult": false,
+				"ResultDuration": 0
+			  }
+			]
+		  }
+		],
+		"Requirements": {
+		  "Scope": "Company",
+		  "RequirementTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		  },
+		  "ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		  },
+		  "RequirementComparisons": []
+		}
+	  },
+	  {
+		"Description": {
+		  "Id": "outcome_2",
+		  "Name": "Call in the Aurigans.",
+		  "Details": "Diplomatic option",
+		  "Icon": ""
+		},
+		"RequirementList": [],
+		"ResultSets": [
+		  {
+			"Description": {
+			  "Id": "outcome_2_0",
+			  "Name": "Reputation Means Something",
+			  "Details": "The <i>Argo</i> rendezvous with a Restoration DropShip at the site of the wreck. After some tense negotiations, you agree to pool resources with the Aurgians to pull as much salvage as possible.\r\n\r\nWorking together, the two crews pull a treasure trove of parts and Mechs. Unfortunately, the Aurigans try to play hardball and cut you out of the equation by bribing you with a paltry 250,000 C-Bills.\r\n\r\nAfter reminding the captain you fought on Appian until circumstances turned against you, you get the lowdown on Future Tech, a cut of the salvage... and some advice to call in the Aurigans if the <i>Argo</i> runs into the pirates or mysterious white Mechs.",
+			  "Icon": ""
+			},
+			"Weight": 100,
+			"Results": [
+			  {
+				"Scope": "Company",
+				"Requirements": {
+				  "items": [
+					"flashpoint_futureTech_half"
+				  ],
+				  "AddedTags": {
+					"items": null,
+					"tagSetSourceFile": "Tags/CompanyTags"
+				  },
+				  "RemovedTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				  },
+				  "Stats": [
+					{
+					  "typeString": "System.Int32",
+					  "name": "Reputation.AuriganRestoration",
+					  "value": "1",
+					  "set": false,
+					  "valueConstant": "[rep_gain_small]"
+					},
+					{
+					  "typeString": "System.Int32",
+					  "name": "Morale",
+					  "value": "1",
+					  "set": false,
+					  "valueConstant": null
+					},
+					{
+					  "typeString": "System.Int32",
+					  "name": "Funds",
+					  "value": "500000",
+					  "set": false,
+					  "valueConstant": null
+					}
+				  ],
+				  "Actions": [
+					{
+						"Type" : "System_ShowRewards",
+						"value" : "itemCollection_loot_FP_event1-2a",
+						"valueConstant" : null,
+						"additionalValues" : null
+					},
+					{
+					  "Type": "System_PauseNotification",
+					  "value": "Well, Commander, we only got a [[DM.MechDefs[mechdef_rifleman_RFL-3N],Rifleman]] and a [[DM.MechDefs[mechdef_hunchback_HBK-4P],Hunchback]] after all that hard work. Damn shame - there were some rare Mechs in that other DropShip. It'll take a bit of work, but we'll get them ready for combat. Swing by the Mech Bay to check them out and order a Refit.",
+					  "additionalValues": [
+						"Rifleman RFL-3N",
+						"Hunchback HBK-4P",
+						"castDef_YangDefault"
+					  ],
+					  "valueConstant": null
+					},
+					{
+					  "Type": "Mech_AddRoster",
+					  "value": "mechdef_rifleman_RFL-3N",
+					  "valueConstant": null,
+					  "additionalValues": null
+					},
+					{
+					  "Type": "Mech_AddRoster",
+					  "value": "mechdef_hunchback_HBK-4P",
+					  "valueConstant": null,
+					  "additionalValues": null
+					}					
+				  ],
+				  "ForceEvents": null,
+				  "TemporaryResult": false,
+				  "ResultDuration": 0
+				}
+			  },
+			  {
+				"Scope": "Company",
+				"Requirements": {},
+				"AddedTags": {
+				  "items": [
+					"event_futureTech1"
+				  ],
+				  "tagSetSourceFile": "Tags/CompanyTags"
+				},
+				"RemovedTags": {
+				  "items": null,
+				  "tagSetSourceFile": ""
+				},
+				"Stats": null,
+				"Actions": null,
+				"ForceEvents": null,
+				"TemporaryResult": false,
+				"ResultDuration": 0
+			  }
+			]
+		  },
+		  {
+			"Description": {
+			  "Id": "outcome_2_1",
+			  "Name": "Brothers in Arms",
+			  "Details": "The <i>Argo</i> rendezvous with a Restoration DropShip at the site of the wreck. Being allies, you agree to pool resources with the Aurgians to pull as much salvage as possible.\r\n\r\nWorking together, the two crews pull a treasure trove of parts and Mechs.\r\n\r\nAn amicable session of negotiations occurs, and you agree to go 50/50 on the Mechs, give them a slightly bigger share of Future Tech... and get a promise to help if the <i>Argo</i> runs into the pirates or mysterious white Mechs.",
+			  "Icon": ""
+			},
+			"Weight": 100,
+			"Results": [
+			  {
+				"Scope": "Company",
+				"Requirements": {
+				  "items": [
+					"flashpoint_futureTech_complete"
+				  ],
+				  "AddedTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				  },
+				  "RemovedTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				  },
+				  "Stats": [
+					{
+					  "typeString": "System.Int32",
+					  "name": "Funds",
+					  "value": "500000",
+					  "set": false,
+					  "valueConstant": null
+					},
+					{
+					  "typeString": "System.Int32",
+					  "name": "Reputation.AuriganRestoration",
+					  "value": "1",
+					  "set": false,
+					  "valueConstant": "[rep_gain_large]"
+					},
+					{
+					  "typeString": "System.Int32",
+					  "name": "Morale",
+					  "value": "3",
+					  "set": false,
+					  "valueConstant": null
+					}
+				  ],
+				  "Actions": [
+					{
+						"Type" : "System_ShowRewards",
+						"value" : "itemCollection_loot_FP_event1-2b",
+						"valueConstant" : null,
+						"additionalValues" : null
+					},
+					{
+					  "Type": "System_PauseNotification",
+					  "value": "That was a hell of a deal you made, Commander. We got ourselves a [[DM.MechDefs[mechdef_blackknight_BL-6b-KNT],Black Knight]], a [[DM.MechDefs[mechdef_griffin_GRF-4N],Griffin], and a [[DM.MechDefs[mechdef_hunchback_HBK-4P],Hunchback]]. Two out of three even come with SLDF Royal grade hardware! Wish we could've gotten more, but the Aurigans need them even more than we do.",
+					  "additionalValues": [
+						"Black Knight BL-6B-KNT",
+						"Griffin GRF-2N",
+						"Hunchback HBK-4P",
+						"castDef_YangDefault"
+					  ],
+					  "valueConstant": null
+					},
+					{
+					  "Type": "Mech_AddRoster",
+					  "value": "mechdef_blackknight_BL-6b-KNT",
+					  "valueConstant": null,
+					  "additionalValues": null
+					},
+					{
+					  "Type": "Mech_AddRoster",
+					  "value": "mechdef_griffin_GRF-4N",
+					  "valueConstant": null,
+					  "additionalValues": null
+					},
+					{
+					  "Type": "Mech_AddRoster",
+					  "value": "mechdef_hunchback_HBK-4P",
+					  "valueConstant": null,
+					  "additionalValues": null
+					}
+				  ],
+				  "ForceEvents": null,
+				  "TemporaryResult": false,
+				  "ResultDuration": 0
+				}
+			  },
+			  {
+				"Scope": "Company",
+				"Requirements": {},
+				"AddedTags": {
+				  "items": [
+					"event_futureTech1"
+				  ],
+				  "tagSetSourceFile": "Tags/CompanyTags"
+				},
+				"RemovedTags": {
+				  "items": null,
+				  "tagSetSourceFile": ""
+				},
+				"Stats": null,
+				"Actions": null,
+				"ForceEvents": null,
+				"TemporaryResult": false,
+				"ResultDuration": 0
+			  }
+			]
+		  }
+		],
+		"Requirements": {
+		  "Scope": "Company",
+		  "RequirementTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		  },
+		  "ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		  },
+		  "RequirementComparisons": []
+		}
+	  },
+	  {
+		"Description": {
+		  "Id": "outcome_3",
+		  "Name": "Try to sneak past the Aurigans.",
+		  "Details": "Risky option",
+		  "Icon": ""
+		},
+		"RequirementList": [],
+		"ResultSets": [
+		  {
+			"Description": {
+			  "Id": "outcome_3_0",
+			  "Name": "They see through your scheme",
+			  "Details": "After cramming every tech into the <i>Hysteria</i> the <i>Argo</i> deliberately moves away from the debris. The plan is to use the smaller DropShip to get to the debris and salvage what you can, without drawing attention.\r\n\r\nUnfortunately, the Aurigans see through the plan and burn hard towards the debris, popping off a few warning shots along the <i>Hysteria</i>'s flight path.\r\n\r\nLosing your only DropShip capable of landing isn't worth the risk, so you abort the mission and bitterly fly away, leaving all the spoils to the Aurigans.",
+			  "Icon": ""
+			},
+			"Weight": 100,
+			"Results": [
+			  {
+				"Scope": "Company",
+				"Requirements": {},
+				"AddedTags": {
+				  "items": null,
+				  "tagSetSourceFile": "Tags/CompanyTags"
+				},
+				"RemovedTags": {
+				  "items": null,
+				  "tagSetSourceFile": ""
+				},
+				"Stats": [
+				  {
+					"typeString": "System.Int32",
+					"name": "Reputation.AuriganRestoration",
+					"value": "1",
+					"set": false,
+					"valueConstant": "[rep_loss_small]"
+				  },
+				  {
+					"typeString": "System.Int32",
+					"name": "Morale",
+					"value": "-1",
+					"set": false,
+					"valueConstant": null
+				  }
+				],
+				"Actions": null,
+				"ForceEvents": null,
+				"TemporaryResult": false,
+				"ResultDuration": 0
+			  },
+			  {
+				"Scope": "Company",
+				"Requirements": {},
+				"AddedTags": {
+				  "items": [
+					"event_futureTech1"
+				  ],
+				  "tagSetSourceFile": "Tags/CompanyTags"
+				},
+				"RemovedTags": {
+				  "items": null,
+				  "tagSetSourceFile": ""
+				},
+				"Stats": null,
+				"Actions": null,
+				"ForceEvents": null,
+				"TemporaryResult": true,
+				"ResultDuration": 90
+			  }
+			]
+		  }
+		],
+		"Requirements": {
+		  "Scope": "Company",
+		  "RequirementTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		  },
+		  "ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		  },
+		  "RequirementComparisons": []
+		}
+	  }
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "NORMAL"
+  }

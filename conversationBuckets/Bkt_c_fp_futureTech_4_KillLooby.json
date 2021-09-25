@@ -1,0 +1,72 @@
+{
+    "identifier" : "Bkt_c_fp_futureTech_4_KillLooby",
+    "contents" : [
+        {
+            "words" : "Commander... the area has been cleared. Darius has given me the green light to land immediately. Hold position.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_SumireDefault",
+            "emote" : "Default",
+            "dialogueOrigin" : "pilot",
+            "audioEventEntryIndex" : 0,
+            "audioEventEntryText" : "NONE",
+            "conversationIdx" : 0,
+            "cameraFocus" : {
+                "EncounterObjectGuid" : ""
+            },
+            "revealRadius" : -1
+        },
+        {
+            "words" : "Commander... I don't think there are words for how sorry I am that you had to do that.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+		"b" : 1,
+		"a" : 1
+	    },
+	    "selectedCastDefId" : "castDef_MadeiraDefault",
+	    "emote" : "Default",
+	    "audioName" : "NONE",
+	    "cameraFocusGuid" : "",
+	    "cameraDistance" : "Far",
+	    "cameraHeight" : "Default",
+	    "revealRadius" : -1
+	},
+	{
+	    "words" : "I hope there'll be time for your crew to gather themselves before the next mission.",
+	    "wordsColor" : {
+		"r" : 1,
+		"g" : 1,
+		"b" : 1,
+		"a" : 1
+	    },
+	    "selectedCastDefId" : "castDef_MadeiraDefault",
+	    "emote" : "Default",
+	    "audioName" : "NONE",
+	    "cameraFocusGuid" : "",
+	    "cameraDistance" : "Far",
+	    "cameraHeight" : "Default",
+	    "revealRadius" : -1
+	},
+	{
+	    "words" : "Don't worry about us, Commander. We'll get through this.",
+	    "wordsColor" : {
+		"r" : 1,
+		"g" : 1,
+		"b" : 1,
+		"a" : 1
+	    },
+	    "selectedCastDefId" : "castDef_DariusDefault",
+	    "emote" : "Default",
+	    "audioName" : "NONE",
+	    "cameraFocusGuid" : "",
+	    "cameraDistance" : "Far",
+	    "cameraHeight" : "Default",
+	    "revealRadius" : -1
+	}
+    ]
+}

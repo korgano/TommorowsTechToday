@@ -1,0 +1,66 @@
+{
+    "Category" : "Missile",
+    "Type" : "SRM",
+    "WeaponSubType" : "SRM4",
+    "MinRange" : 0,
+    "MaxRange" : 300,
+    "RangeSplit" : [
+        150,
+        150,
+        300
+    ],
+    "ammoCategoryID" : "SRM",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 6,
+    "Damage" : 8,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 5,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1.75,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 4,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 1,
+    "Instability" : 6,
+    "WeaponEffectID" : "WeaponEffect-Weapon_SRM4",
+    "Description" : {
+        "Cost" : 900000,
+        "Rarity" : 10,
+        "Purchasable" : false,
+        "Manufacturer" : "Valiant",
+        "Model" : "Short-Range Missile Launcher",
+        "UIName" : "SRM4 (FT)",
+        "Id" : "Weapon_SRM_SRM4_5-Future",
+        "Name" : "SRM4 (FT)",
+        "Details" : "It seems like in 3333, SRM4s are the bare minimum. Makes sense, given their advanced heat sinks. These have a lower minimum range, a longer maximum range, run a little cooler, and use warheads that inflict heat damage, on top of stripping armor. All SRMs in inventory can be refitted to fire the new warheads.",
+        "Icon" : "uixSvgIcon_weapon_Missile"
+    },
+    "BonusValueA" : "+ 75% Crit.",
+    "BonusValueB" : "+ 3 Stb.Dmg.",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "srm4",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 2,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant3",
+			"BLACKLISTED",
+            "range_standard"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

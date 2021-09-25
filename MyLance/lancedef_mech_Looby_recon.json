@@ -1,0 +1,70 @@
+{
+    "Description" : {
+       "Id" : "lancedef_mech_Looby_recon",
+       "Name" : "Looby's Legion Beta Lance",
+       "Details" : "",
+       "Icon" : "",
+       "Cost" : 0,
+       "Rarity" : 0,
+       "Purchasable" : false
+    },
+    "Difficulty" : 6,
+    "LanceTags" : {
+        "items" : [
+            "lance_bracket_med",
+            "lance_type_fire",
+            "lance_type_medium",
+            "lance_type_dynamic",
+            "lance_type_mech",
+            "lance_type_notallvehicles"
+         ],
+       "tagSetSourceFile" : "Tags/LanceTags"
+    },
+    "LanceUnits" : [
+       {
+          "unitType" : "Mech",
+          "unitId" : "mechdef_blackjack_BJ-1DB",
+          
+          "pilotId" : "pilot_d4_gunner",
+          
+          "unitTagSet" : null,
+          "excludedUnitTagSet" : null,
+          "pilotTagSet" : null,
+          "excludedPilotTagSet" : null
+       },
+       {
+          "unitType" : "Mech",
+          "unitId" : "mechdef_trebuchet_TBT-5N",
+          
+          "pilotId" : "pilot_d4_pilot",
+          
+          "unitTagSet" : null,
+          "excludedUnitTagSet" : null,
+          "pilotTagSet" : null,
+          "excludedPilotTagSet" : null
+       },
+       {
+          "unitType" : "Mech",
+          "unitId" : "mechdef_centurion_CN9-AL",
+          
+          "pilotId" : "pilot_d4_pilot",
+          
+          "unitTagSet" : null,
+          "excludedUnitTagSet" : null,
+          "pilotTagSet" : null,
+          "excludedPilotTagSet" : null
+       },
+       {
+          "unitType" : "Mech",
+          "unitId" : "mechdef_hunchback_HBK-4P",
+          
+          "pilotId" : "pilot_d4_tactician",
+          
+          "unitTagSet" : null,
+          "excludedUnitTagSet" : null,
+          "pilotTagSet" : null,
+          "excludedPilotTagSet" : null
+       }
+    ]
+ }
+ 

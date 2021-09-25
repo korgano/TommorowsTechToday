@@ -1,0 +1,70 @@
+{
+   "Description" : {
+      "Id" : "lancedef_comstar_recon",
+      "Name" : "ComStar Recon",
+      "Details" : "",
+      "Icon" : "",
+      "Cost" : 0,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "Difficulty" : 8,
+   "LanceTags" : {
+      "items" : [
+         "lance_bracket_high",
+         "lance_type_heavy",
+         "lance_type_recon",
+		 "lance_type_dynamic",
+		 "lance_type_mech",
+		 "lance_type_notallvehicles",
+		 "BLACKLISTED"
+      ],
+      "tagSetSourceFile" : "Tags/LanceTags"
+   },
+   "LanceUnits" : [
+      {
+         "unitType" : "Mech",
+         "unitId" : "mechdef_blackknight_BL-6b-KNT",
+         
+         "pilotId" : "pilot_d2_ComGuard",
+         
+         "unitTagSet" : null,
+         "excludedUnitTagSet" : null,
+         "pilotTagSet" : null,
+         "excludedPilotTagSet" : null
+      },
+      {
+         "unitType" : "Mech",
+         "unitId" : "mechdef_blackknight_BL-6b-KNT",
+         
+         "pilotId" : "pilot_d2_ComGuard",
+         
+         "unitTagSet" : null,
+         "excludedUnitTagSet" : null,
+         "pilotTagSet" : null,
+         "excludedPilotTagSet" : null
+      },
+      {
+         "unitType" : "Mech",
+         "unitId" : "mechdef_griffin_GRF-4N",
+         
+         "pilotId" : "pilot_d1_ComGuard",
+         
+         "unitTagSet" : null,
+         "excludedUnitTagSet" : null,
+         "pilotTagSet" : null,
+         "excludedPilotTagSet" : null
+      },
+      {
+         "unitType" : "Mech",
+         "unitId" : "mechdef_griffin_GRF-4N",
+         
+         "pilotId" : "pilot_d1_ComGuard",
+         
+         "unitTagSet" : null,
+         "excludedUnitTagSet" : null,
+         "pilotTagSet" : null,
+         "excludedPilotTagSet" : null
+      }
+   ]
+}

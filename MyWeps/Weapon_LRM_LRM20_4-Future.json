@@ -1,0 +1,66 @@
+{
+    "Category" : "Missile",
+    "Type" : "LRM",
+    "WeaponSubType" : "LRM20",
+    "MinRange" : 150,
+    "MaxRange" : 700,
+    "RangeSplit" : [
+        400,
+        400,
+        700
+    ],
+    "ammoCategoryID" : "LRM",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 16,
+    "Damage" : 4,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 5,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1.75,
+    "AOECapable" : false,
+    "IndirectFireCapable" : true,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 20,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 1,
+    "Instability" : 5,
+    "WeaponEffectID" : "WeaponEffect-Weapon_LRM20",
+    "Description" : {
+        "Cost" : 900000,
+        "Rarity" : 10,
+        "Purchasable" : false,
+        "Manufacturer" : "Zeus",
+        "Model" : "Long-Range Missile Launcher",
+        "UIName" : "LRM20 (FT)",
+        "Id" : "Weapon_LRM_LRM20_4-Future",
+        "Name" : "LRM20 (FT)",
+        "Details" : "3333 era LRMs have a lower minimum range, a longer maximum range, run a little cooler, and use warheads that inflict heat damage, on top of stripping armor. All LRMs in inventory can be refitted to fire the new warheads.",
+        "Icon" : "uixSvgIcon_weapon_Missile"
+    },
+    "BonusValueA" : "+ 75% Crit.",
+    "BonusValueB" : "+ 3 Stb.Dmg.",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "lrm20",
+    "BattleValue" : 0,
+    "InventorySize" : 4,
+    "Tonnage" : 10,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant3",
+			"BLACKLISTED",
+            "range_extreme"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

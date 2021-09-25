@@ -1,0 +1,120 @@
+{
+    "identifier" : "Bkt_c_fp_futureTech_2A_ConvoyAmbush",
+    "contents" : [
+        {
+            "words" : "Commander, the area has been cleared. Darius has given me the green light to land immediately. Hold position.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_SumireDefault",
+            "emote" : "Default",
+            "dialogueOrigin" : "pilot",
+            "audioEventEntryIndex" : 0,
+            "audioEventEntryText" : "NONE",
+            "conversationIdx" : 0,
+            "cameraFocus" : {
+                "EncounterObjectGuid" : ""
+            },
+            "revealRadius" : -1
+        },
+        {
+            "words" : "We have a problem, Commander. The Royal Guards ran into heavy resistance from the mercenaries. They've won most of their fights, but they're pretty banged up.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+		"b" : 1,
+		"a" : 1
+	    },
+	    "selectedCastDefId" : "castDef_MadeiraDefault",
+	    "emote" : "Default",
+	    "audioName" : "NONE",
+	    "cameraFocusGuid" : "",
+	    "cameraDistance" : "Far",
+	    "cameraHeight" : "Default",
+	    "revealRadius" : -1
+	},
+	{
+	    "words" : "One unit in particular, Looby's Legion, caused us a lot of problems.",
+	    "wordsColor" : {
+		"r" : 1,
+		"g" : 1,
+		"b" : 1,
+		"a" : 1
+	    },
+	    "selectedCastDefId" : "castDef_MadeiraDefault",
+	    "emote" : "Default",
+	    "audioName" : "NONE",
+	    "cameraFocusGuid" : "",
+	    "cameraDistance" : "Far",
+	    "cameraHeight" : "Default",
+	    "revealRadius" : -1
+	},
+    {
+        "words" : "It can't be! I thought they disbanded after Fjaldr!",
+        "wordsColor" : {
+            "r" : 1,
+            "g" : 1,
+            "b" : 1,
+            "a" : 1
+        },
+        "selectedCastDefId" : "castDef_SumireDefault",
+        "emote" : "Default",
+        "audioName" : "NONE",
+        "cameraFocusGuid" : "",
+        "cameraDistance" : "Far",
+        "cameraHeight" : "Default",
+        "revealRadius" : -1
+    },
+    {
+        "words" : "Major Looby! This is Sumire Meyer of-",
+        "wordsColor" : {
+            "r" : 1,
+            "g" : 1,
+            "b" : 1,
+            "a" : 1
+        },
+        "selectedCastDefId" : "castDef_SumireDefault",
+        "emote" : "Default",
+        "audioName" : "NONE",
+        "cameraFocusGuid" : "",
+        "cameraDistance" : "Far",
+        "cameraHeight" : "Default",
+        "revealRadius" : -1
+    },
+    {
+        "words" : "Goddamn it, Sumire! Don't broadcast on an open channel!",
+        "wordsColor" : {
+            "r" : 1,
+            "g" : 1,
+            "b" : 1,
+            "a" : 1
+        },
+        "selectedCastDefId" : "castDef_DariusDefault",
+        "emote" : "Default",
+        "audioName" : "NONE",
+        "cameraFocusGuid" : "",
+        "cameraDistance" : "Far",
+        "cameraHeight" : "Default",
+        "revealRadius" : -1
+    },
+	{
+	    "words" : "Commander, you <i>really</i> need to get up here to deal with this shit.",
+	    "wordsColor" : {
+		"r" : 1,
+		"g" : 1,
+		"b" : 1,
+		"a" : 1
+	    },
+	    "selectedCastDefId" : "castDef_DariusDefault",
+	    "emote" : "Default",
+	    "audioName" : "NONE",
+	    "cameraFocusGuid" : "",
+	    "cameraDistance" : "Far",
+	    "cameraHeight" : "Default",
+	    "revealRadius" : -1
+	}
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "Description" : {
+        "Cost" : 0,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "UIName" : "",
+        "Id" : "argoUpgrade_power4",
+        "Name" : "Thermo-Cyclic Heat Sinks",
+        "Details" : "The <i>Argo</i> uses numerous conventional Heat Sinks in its power systems to manage heat generation. We can't replace them all without a layover in drydock, but replacing half with Future Tech Heat Sinks will increase cooling capability and help generate extra power.",
+        "Icon" : "uixSvgIcon_shipUpgrade_power2"
+    },
+    "Illustration" : "uixTxrSpot_EngineeringInnards",
+    "Location" : "ENGINEERING",
+    "shipUpgradeCategoryID" : "POWER_SYSTEM",
+    "AssignedCastDefId": "castDef_FarahDefault",
+    "AssignedCastDescription": "Future Tech is truly amazing, Commander. With Thermo-Cyclic Heat Sinks, we're converting a decent chunk of waste heat into free energy. You won't have to worry about power management after this upgrade.",
+    "RequiredModules" : {
+        "items" : [
+			"argoUpgrade_power2",
+            "argo_mechBay_HSconverter"
+		],
+        "tagSetSourceFile" : ""
+    },
+    "Requirements" : [
+        
+    ],
+    "TechCost" : 179,
+    "PurchaseCost" : 750000,
+    "AdditionalCost" : 2500,
+    "Tags" : {
+        "items" : [
+            "argo_power4"
+        ],
+        "tagSetSourceFile" : ""
+    },
+    "Stats" : [
+        
+    ],
+	"Actions" : [
+		{
+			"Type" : "Ship_SetRepairState",
+			"value" : "5",
+			"additionalValues" : [
+				"Power"
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+   "id" : "castDef_LoobyDefault",
+   "internalName" : "fp_LoobyDefault",
+   "firstName" : "Obadiah",
+   "lastName" : "Looby",
+   "callsign" : "Graybeard",
+   "rank" : "Major",
+   "gender" : "Male",
+   "factionID" : "HostileMercenaries",
+   "sgCharType" : "UNSET",
+   "showRank" : true,
+   "showFirstName" : true,
+   "showCallsign" : true,
+   "showLastName" : true,
+   "defaultEmotePortrait" : {
+      "emote" : "Default",
+      "portraitAssetPath" : "castSprites/guiTxrPort_fp_obadiah_looby.png"
+   },
+   "emotePotraitList" : [
+      
+   ]
+}

@@ -1,0 +1,139 @@
+{
+   "Description" : {
+      "Id" : "lancedef_vehicle_d1_dynamic_FTlightBattle",
+      "Name" : "Dynamic Dif 1 Light Vehicle FT Battle",
+      "Details" : "Pirate Lance with FT energy weapons",
+      "Icon" : null,
+      "Cost" : 0,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "Difficulty" : 6,
+   "LanceTags" : {
+      "items" : ["AuriganPirates",
+	  "lance_type_vehicle"],
+      "tagSetSourceFile" : "Tags/LanceTags"
+   },
+   "LanceUnits" : [
+       {
+         "unitType" : "Vehicle",
+         "unitId" : "vehicledef_BULLDOG_pirate",
+         "pilotId" : "Tagged",
+         "unitTagSet" : {
+            "items" : [
+               "unit_heavy",
+               "unit_vehicle",
+			   "unit_tracks"
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "excludedUnitTagSet" : {
+            "items" : [
+               "unit_noncombatant",
+			   "unit_urbie"
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "pilotTagSet" : {
+            "items" : [
+               "pilot_npc_d1"
+            ],
+            "tagSetSourceFile" : "Tags/PilotTags"
+         },
+         "excludedPilotTagSet" : {
+            "items" : null,
+            "tagSetSourceFile" : "Tags/PilotTags"
+         }
+      },
+      {
+         "unitType" : "Vehicle",
+         "unitId" : "vehicledef_APC_Sleipnir_pirate",
+         "pilotId" : "Tagged",
+         "unitTagSet" : {
+            "items" : [
+               "unit_medium",
+               "unit_vehicle",
+			   "unit_vehicle_apc"
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "excludedUnitTagSet" : {
+            "items" : [
+               "unit_noncombatant",
+			   "unit_urbie"
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "pilotTagSet" : {
+            "items" : [
+               "pilot_npc_d1"
+            ],
+            "tagSetSourceFile" : "Tags/PilotTags"
+         },
+         "excludedPilotTagSet" : {
+            "items" : null,
+            "tagSetSourceFile" : "Tags/PilotTags"
+         }
+      },
+      {
+         "unitType" : "Vehicle",
+         "unitId" : "vehicledef_APC_Wheeled_pirate",
+         "pilotId" : "Tagged",
+         "unitTagSet" : {
+            "items" : [
+               "unit_light",
+               "unit_vehicle",
+			   "unit_vehicle_apc"
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "excludedUnitTagSet" : {
+            "items" : [
+               "unit_noncombatant",
+			   "unit_urbie"
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "pilotTagSet" : {
+            "items" : [
+               "pilot_npc_d1"
+            ],
+            "tagSetSourceFile" : "Tags/PilotTags"
+         },
+         "excludedPilotTagSet" : {
+            "items" : null,
+            "tagSetSourceFile" : "Tags/PilotTags"
+         }
+      },
+      {
+         "unitType" : "Vehicle",
+         "unitId" : "vehicledef_APC_Wheeled_pirate",
+         "pilotId" : "Tagged",
+         "unitTagSet" : {
+            "items" : [
+               "unit_light",
+               "unit_vehicle",
+			   "unit_vehicle_apc"
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "excludedUnitTagSet" : {
+            "items" : [
+               "unit_noncombatant",
+			   "unit_urbie"
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "pilotTagSet" : {
+            "items" : [
+               "pilot_npc_d1"
+            ],
+            "tagSetSourceFile" : "Tags/PilotTags"
+         },
+         "excludedPilotTagSet" : {
+            "items" : null,
+            "tagSetSourceFile" : "Tags/PilotTags"
+         }
+      }
+   ]
+}

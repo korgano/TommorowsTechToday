@@ -1,0 +1,88 @@
+{
+    "identifier" : "Bkt_c_fp_futureTech_2B_PiratesVsMercs",
+    "contents" : [
+        {
+            "words" : "Commander, the area has been cleared. Darius has given me the green light to land immediately. Hold position.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_SumireDefault",
+            "emote" : "Default",
+            "dialogueOrigin" : "pilot",
+            "audioEventEntryIndex" : 0,
+            "audioEventEntryText" : "NONE",
+            "conversationIdx" : 0,
+            "cameraFocus" : {
+                "EncounterObjectGuid" : ""
+            },
+            "revealRadius" : -1
+        },
+        {
+            "words" : "Well... the Royal Guard is having an easier time handling the rest of the mercenaries and pirates.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+		"b" : 1,
+		"a" : 1
+	    },
+	    "selectedCastDefId" : "castDef_MadeiraDefault",
+	    "emote" : "Default",
+	    "audioName" : "NONE",
+	    "cameraFocusGuid" : "",
+	    "cameraDistance" : "Far",
+	    "cameraHeight" : "Default",
+	    "revealRadius" : -1
+	},
+	{
+	    "words" : "Seems like Looby was a cut above the rest of the other mercs.",
+	    "wordsColor" : {
+		"r" : 1,
+		"g" : 1,
+		"b" : 1,
+		"a" : 1
+	    },
+	    "selectedCastDefId" : "castDef_MadeiraDefault",
+	    "emote" : "Default",
+	    "audioName" : "NONE",
+	    "cameraFocusGuid" : "",
+	    "cameraDistance" : "Far",
+	    "cameraHeight" : "Default",
+	    "revealRadius" : -1
+	},
+    {
+        "words" : "Yeah, well, they had to be, to survive Fjaldr.",
+        "wordsColor" : {
+            "r" : 1,
+            "g" : 1,
+            "b" : 1,
+            "a" : 1
+        },
+        "selectedCastDefId" : "castDef_DariusDefault",
+        "emote" : "Default",
+        "audioName" : "NONE",
+        "cameraFocusGuid" : "",
+        "cameraDistance" : "Far",
+        "cameraHeight" : "Default",
+        "revealRadius" : -1
+    },
+	{
+	    "words" : "We <i>really</i> need to talk about this once you get back, Commander.",
+	    "wordsColor" : {
+		"r" : 1,
+		"g" : 1,
+		"b" : 1,
+		"a" : 1
+	    },
+	    "selectedCastDefId" : "castDef_DariusDefault",
+	    "emote" : "Default",
+	    "audioName" : "NONE",
+	    "cameraFocusGuid" : "",
+	    "cameraDistance" : "Far",
+	    "cameraHeight" : "Default",
+	    "revealRadius" : -1
+	}
+    ]
+}

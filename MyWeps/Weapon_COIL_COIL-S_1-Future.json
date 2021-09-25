@@ -1,0 +1,78 @@
+{
+    "Category" : "AntiPersonnel",
+    "Type" : "COIL",
+    "WeaponSubType" : "COILS",
+    "MinRange" : 0,
+    "MaxRange" : 200,
+    "RangeSplit" : [
+        150,
+        150,
+        200
+    ],
+    "AmmoCategory" : "NotSet",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 20,
+    "Damage" : 15,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : -1,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 4,
+    "Instability" : 0,
+    "WeaponEffectID" : "WeaponEffect-Weapon_COILS",
+    "Description" : {
+        "Cost" : 900000,
+        "Rarity" : 100,
+        "Purchasable" : true,
+        "Manufacturer" : "Happindustries",
+        "Model" : "Light COIL Beam (FT)",
+        "UIName" : "COIL-S (FT)",
+        "Id" : "Weapon_COIL_COIL-S_1-Future",
+        "Name" : "COIL-S (FT)",
+        "Details" : "This Contained Overflow Inertia Linkage\u2014COIL\u2014 unit from 3333 is half the size of current models, slightly longer range, and generates 33% less heat. \n\nCOIL weapons will explode if destroyed, devastating the installed location. The COIL-S generates the lowest-yield attack output of these weapon types.",
+        "Icon" : "uixSvgIcon_weapon_Support"
+    },
+    "BonusValueA" : "Dmg. X Evasion",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "Laser",
+    "BattleValue" : 0,
+    "InventorySize" : 2,
+    "Tonnage" : 2,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "CanExplode" : true,
+    "statusEffects" : [
+        
+    ],
+	"additionalData" : [
+		{
+			"statName" : "EvasiveExponent",
+			"statValue" : "1.0",
+			"statType" : "System.Single"
+		},
+		{
+			"statName" : "HeatDivisor",
+			"statValue" : "2.0",
+            "statType" : "System.Single"
+		}
+	],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_close",
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

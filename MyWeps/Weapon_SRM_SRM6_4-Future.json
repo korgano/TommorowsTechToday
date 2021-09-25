@@ -1,0 +1,66 @@
+{
+    "Category" : "Missile",
+    "Type" : "SRM",
+    "WeaponSubType" : "SRM6",
+    "MinRange" : 0,
+    "MaxRange" : 300,
+    "RangeSplit" : [
+        150,
+        150,
+        300
+    ],
+    "ammoCategoryID" : "SRM",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 10,
+    "Damage" : 8,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1.75,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 6,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 1,
+    "Instability" : 6,
+    "WeaponEffectID" : "WeaponEffect-Weapon_SRM6",
+    "Description" : {
+        "Cost" : 900000,
+        "Rarity" : 10,
+        "Purchasable" : false,
+        "Manufacturer" : "Valiant",
+        "Model" : "Short-Range Missile Launcher",
+        "UIName" : "SRM6 (FT)",
+        "Id" : "Weapon_SRM_SRM6_4-Future",
+        "Name" : "SRM6 (FT)",
+        "Details" : "SRM6s are the largest of the 3333 SRMs we've found, but records indicate SRM8s exist. These have a lower minimum range, a longer maximum range, run a little cooler, and use warheads that inflict heat damage, on top of stripping armor. All SRMs in inventory can be refitted to fire the new warheads.",
+        "Icon" : "uixSvgIcon_weapon_Missile"
+    },
+    "BonusValueA" : "+ 75% Crit.",
+    "BonusValueB" : "+ 3 Stb.Dmg.",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "srm6",
+    "BattleValue" : 0,
+    "InventorySize" : 2,
+    "Tonnage" : 3,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant3",
+			"BLACKLISTED",
+            "range_standard"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

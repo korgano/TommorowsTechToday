@@ -1,0 +1,50 @@
+{
+    "Description" : {
+        "Id" : "fp_futureTech",
+        "Name" : "Lost Tech Retrieval",
+        "Details" : "A medium difficulty Flashpoint that promises a LosTech payoff.",
+        "Icon" : "uixTxrSpot_futureTech.png"
+    },
+    "Weight" : 30,
+    "InternalName" : "futureTech",
+    "PublishState" : "PUBLISHED",
+    "Difficulty" : 7,
+    "Requirements" : [],
+    "LocationRequirements" : {
+        "Scope" : "StarSystem",
+        "RequirementTags" : {
+            "items" : [
+                "planet_name_appian"
+            ],
+            "tagSetSourceFile" : "Tags/CompanyTags"
+        },
+        "ExclusionTags" : {
+            "items" : [
+                "ALLIED_FACTION_AuriganDirectorate"
+            ],
+            "tagSetSourceFile" : "Tags/CompanyTags"
+        },
+        "RequirementComparisons" : []
+    },
+    "PotentialEmployers" : [
+        "AuriganRestoration"
+    ],
+    "TargetFaction" : "AuriganPirates",
+    "AllowRefitTime" : true,
+    "FlashpointLength" : "MEDIUM",
+    "Repeatable" : false,
+    "MilestoneSetID" : "ms_fp_futureTech",
+    "UseAvailableTimeoutOverride" : false,
+    "AvailableTimeout" : 0,
+    "UseInProgressTimeoutOverride" : false,
+    "InProgressTimeout" : 0,
+    "RewardCollectionID" : "itemCollection_Mechs_rare",
+    "UnitDropTonnageHint" : "None",
+    "LanceDropTonnageHint" : "Heavy",
+    "FlashpointShortDescription" : "Lady Arano has a high priority job for us. Seems like some pirates have gotten a hold on some LosTech and started trouble in the border regions. She wants us to help her forces take out the pirates' base of operations, in exchange for a cut of LosTech and a healthy payment.",
+    "FlashpointDescriberCastDefId" : "castDef_DariusDefault",
+    "Tags" : {
+        "items" : [],
+        "tagSetSourceFile" : "tags/FlashpointTags"
+    }
+}

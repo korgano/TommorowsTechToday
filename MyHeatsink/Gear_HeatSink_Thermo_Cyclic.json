@@ -1,0 +1,80 @@
+{
+    "DissipationCapacity" : 6,
+    "Description" : {
+        "Cost" : 900000,
+        "Rarity" : 100,
+        "Purchasable" : false,
+        "Manufacturer" : "Generic",
+        "Model" : "Thermo-Cyclic",
+        "UIName" : "Heat Sink (FT)",
+        "Id" : "Gear_HeatSink_Thermo_Cyclic",
+        "Name" : "Heat Sink (FT)",
+        "Details" : "Thermo-Cyclic Heat Sinks are Future Tech (FT). Hailing from 3333, they provide the cooling capacity of a Double Heat Sink in the size of a single Heat Sink, while recycling heat to boost energy weapon strength by 20%.",
+        "Icon" : "uixSvgIcon_equipment_Heatsink"
+    },
+    "BonusValueA" : "- 6 Heat / Turn",
+    "BonusValueB" : "+20% Energy Weapon Dmg.",
+    "ComponentType" : "HeatSink",
+    "ComponentSubType" : "Heatsink",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0.5,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-HSFT-DamageBoost",
+                "Name" : "THERMO-CYCLIC HEAT SINK",
+                "Details" : "Cools 6 heat per turn and provides +20% Energy weapons Dmg.",
+                "Icon" : "uixSvgIcon_equipment_Heatsink"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamagePerShot",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.2",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Energy",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        }
+		],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "component_type_lostech",
+			"BLACKLISTED"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

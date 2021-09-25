@@ -1,0 +1,43 @@
+{
+    "Description" : {
+        "Cost" : 0,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "UIName" : "",
+        "Id" : "argoUpgrade_mechBay_HSconverter",
+        "Name" : "Heat Sink Converter",
+        "Details" : "Using open source 3333 hardware that we found on Appian, we can set up a production line to convert standard Heat Sinks to Thermo-Cyclic Heat Sinks. It'll convert one per day, allowing us to build up a stockpile.",
+        "Icon" : "uixSvgIcon_shipUpgrade_machineshop"
+    },
+    "Illustration" : "uixTxrSpot_YangWorking",
+    "Location" : "MECH_BAY",
+    "shipUpgradeCategoryID" : "REPAIR_REFIT",
+    "AssignedCastDefId": "castDef_YangDefault",
+    "AssignedCastDescription": "Okay, what we got here is a setup that can be shoved in a corner of any decently sized base or ship, takes cheap raw materials, and turns regular old Heat Sinks into better Double Heat Sinks. And this was originally a cheap, <i>budget</i> solution to the problem of new Heat Sink tech making old stuff obsolete. A shame Quintiple Heat Sinks were expensive, because just imagine what we could do with a few of those.",
+    "RequiredModules" : {
+        "items" : [
+			"argoUpgrade_mechBay2"
+        ],
+        "tagSetSourceFile" : ""
+    },
+    "Requirements" : [
+        
+    ],
+    "TechCost" : 14,
+    "PurchaseCost" : 450000,
+    "AdditionalCost" : 8500,
+    "Tags" : {
+        "items" : [
+            "argo_mechBay_HSconverter"
+        ],
+        "tagSetSourceFile" : ""
+    },
+    "Stats" : [
+ 		{
+			"typeString" : "System.Int32",
+			"name" : "MechTechSkill",
+			"value" : 2,
+			"valueConstant" : ""
+		}       
+    ]
+}

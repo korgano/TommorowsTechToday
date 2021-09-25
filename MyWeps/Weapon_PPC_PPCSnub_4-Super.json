@@ -1,0 +1,117 @@
+{
+    "Category" : "Energy",
+    "Type" : "PPC",
+    "WeaponSubType" : "PPCSnub",
+    "MinRange" : 0,
+    "MaxRange" : 700,
+    "RangeSplit" : [
+        250,
+        250,
+        700
+    ],
+    "ammoCategoryID" : "NotSet",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 25,
+    "Damage" : 20,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 5,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 1,
+    "ShotsWhenFired" : 5,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 1,
+    "Instability" : 15,
+    "WeaponEffectID" : "WeaponEffect-Weapon_PPCSnub",
+    "Description" : {
+        "Cost" : 900000,
+        "Rarity" : 99,
+        "Purchasable" : true,
+        "Manufacturer" : "Magna",
+        "Model" : "Particle Cluster Cannon",
+        "UIName" : "Super Snub PPC",
+        "Id" : "Weapon_PPC_PPCSnub_4-Super",
+        "Name" : "Super Snub PPC",
+        "Details" : "The 3333 version of a Snub PPC works the same as a Snub PPC, but with an ER PPC's range, lower heat generation, increased damage, and lighter weight. And that's not all! The Super Snub PPC shots have increased EM targeting degradation and inflict heat damage on the target.",
+        "Icon" : "uixSvgIcon_weapon_Energy"
+    },
+    "BonusValueA" : "+ 5 Heat Dmg. per shot",
+    "BonusValueB" : "+2 Sensors Impaired",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "PPC",
+    "InventorySize" : 2,
+    "Tonnage" : 4,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "VolleyDivisor" : 1,
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : 1,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : 0,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "NotSet",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "AbilityDefPPC",
+                "Name" : "SENSORS IMPAIRED",
+                "Details" : "+[AMT] Difficulty to all of this unit's attacks until its next activation.",
+                "Icon" : "uixSvgIcon_status_sensorsImpaired"
+            },
+            "nature" : "Debuff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "2.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant2",
+            "range_standard",
+            "component_type_lostech",
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

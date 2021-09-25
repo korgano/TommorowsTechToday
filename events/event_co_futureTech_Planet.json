@@ -1,0 +1,599 @@
+{
+	"Description": {
+	  "Id": "event_co_futureTech_Debris",
+	  "Name": "Distress Call",
+	  "Details": "Sumire catches your attention on the bridge. \"Commander, I've picked up a weak distress call on a pirate frequency. Looks like it's from somewhere on that planet.\"\r\n\r\nShe studies the display. \"There's a Restoration patrol in the system. If this is Future Tech related, it might be worth it to call them in.\"",
+	  "Icon": "uixTxrSpot_UnidentifiedObject.png"
+	},
+	"Scope": "Company",
+	"Weight": 30,
+	"Requirements": {
+	  "Scope": "Company",
+	  "RequirementTags": {
+		"items": [
+		  "flashpoint_futureTech_complete",
+          "event_futureTech1"
+		],
+		"tagSetSourceFile": ""
+	  },
+	  "ExclusionTags": {
+		"items": [
+		  "flashpoint_futureTech_cancel",
+		  "event_futureTech2"
+		],
+		"tagSetSourceFile": "Tags/CompanyTags"
+	  },
+	  "RequirementComparisons": [
+		{
+		  "obj": "Funds",
+		  "op": "GreaterThan",
+		  "val": 10000,
+		  "valueConstant": "10000"
+		}
+	  ]
+	},
+	"AdditionalRequirements": [
+	  {
+		"Scope": "StarSystem",
+		"RequirementTags": {
+		  "items": [
+			"planet_faction_nofaction",
+			"planet_other_blackmarket"
+		  ],
+		  "tagSetSourceFile": "Tags/PlanetTags"
+		},
+		"ExclusionTags": {
+		  "items": [
+			"planet_event_pox",
+			"planet_other_plague",
+            "planet_other_pirate",
+            "planet_faction_restoration",
+			"planet_climate_lunar"
+		  ],
+		  "tagSetSourceFile": "Tags/PlanetTags"
+		},
+		"RequirementComparisons": []
+	  }
+	],
+	"AdditionalObjects": [],
+	"Options": [
+	  {
+		"Description": {
+		  "Id": "outcome_0",
+		  "Name": "Stay out of it.",
+		  "Details": "Non-participation Option",
+		  "Icon": ""
+		},
+		"RequirementList": [],
+		"ResultSets": [
+		  {
+			"Description": {
+			  "Id": "outcome_0_0",
+			  "Name": "Nothing happens",
+			  "Details": "You tell Sumire to forget she even heard it. You've already pressed your luck and don't want mysterious people showing up to kill you.",
+			  "Icon": ""
+			},
+			"Weight": 100,
+			"Results": [
+			  {
+				"Scope": "Company",
+				"Requirements": {},
+				"AddedTags": {
+				  "items": [
+					"event_futureTech1"
+				  ],
+				  "tagSetSourceFile": "Tags/CompanyTags"
+				},
+				"RemovedTags": {
+				  "items": null,
+				  "tagSetSourceFile": ""
+				},
+				"Stats": null,
+				"Actions": null,
+				"ForceEvents": null,
+				"TemporaryResult": false,
+				"ResultDuration": 0
+			  }
+			]
+		  }
+		],
+		"Requirements": {
+		  "Scope": "Company",
+		  "RequirementTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		  },
+		  "ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		  },
+		  "RequirementComparisons": []
+		}
+	  },
+	  {
+		"Description": {
+		  "Id": "outcome_1",
+		  "Name": "Investigate carefully.",
+		  "Details": "Safe option",
+		  "Icon": ""
+		},
+		"RequirementList": [],
+		"ResultSets": [
+		  {
+			"Description": {
+			  "Id": "outcome_1_0",
+			  "Name": "No attention drawn",
+			  "Details": "When the <i>Argo</i> arrives in orbit, you discover a crashed DropShip.\r\n\r\nA few dozen surviving pirates, mostly technicians and medics, beg for help.\r\n\r\nAfter confirming that they were part of the Future Tech crew, you agree to help them... for a price.\r\n\r\nWhile pulling the Future Tech from the wreckage, a few of the pirates try to jump your people. They pay the price.",
+			  "Icon": ""
+			},
+			"Weight": 50,
+			"Results": [
+			  {
+				"Scope": "Company",
+				"Requirements": {
+				  "items": [
+					"flashpoint_futureTech_half"
+				  ]
+				},
+				"AddedTags": {
+				  "items": null,
+				  "tagSetSourceFile": "Tags/CompanyTags"
+				},
+				"RemovedTags": {
+				  "items": null,
+				  "tagSetSourceFile": ""
+				},
+				"Stats": [
+				  {
+					"typeString": "System.Int32",
+					"name": "Funds",
+					"value": "500000",
+					"set": false,
+					"valueConstant": null
+				  },
+				  {
+					"typeString" : "System.Int32",
+					"name" : "MechTechSkill",
+					"value" : "+8",
+					"set" : false,
+					"valueConstant" : null
+				},
+				{
+					"typeString" : "System.Int32",
+					"name" : "MedTechSkill",
+					"value" : "+8",
+					"set" : false,
+					"valueConstant" : null
+				}
+				],
+				"Actions": [
+				  {
+					"Type": "System_PauseNotification",
+					"value": "Most of the pirate 'Mechs were too managled to salvage after battle and crash damage, but there's still a [[DM.MechDefs[mechdef_dragon_DRG-1N],Dragon]], a [[DM.MechDefs[mechdef_catapult_CPLT-C1],Catapult]], a [[DM.MechDefs[mechdef_trebuchet_TBT-5N],Trebuchet]], and a [[DM.MechDefs[mechdef_hunchback_HBK-4P],Hunchback]]. It'll take a bit of work, but we'll get them ready for combat. Swing by the Mech Bay to check them out and order a Refit.",
+					"additionalValues": [
+					  "Dragon DRG-1N",
+					  "Catpult CPLT-C1",
+					  "Trebuchet TBT-5N",
+					  "Hunchback HBK-4P",
+					  "castDef_YangDefault"
+					],
+					"valueConstant": null
+				  },
+				  {
+					"Type": "Mech_AddRoster",
+					"value": "mechdef_dragon_DRG-1N",
+					"valueConstant": null,
+					"additionalValues": null
+				  },
+				  {
+					"Type": "Mech_AddRoster",
+					"value": "mechdef_catapult_CPLT-C1",
+					"valueConstant": null,
+					"additionalValues": null
+				  },
+				  {
+					"Type": "Mech_AddRoster",
+					"value": "mechdef_trebuchet_TBT-5N",
+					"valueConstant": null,
+					"additionalValues": null
+				  },
+				  {
+					"Type": "Mech_AddRoster",
+					"value": "mechdef_hunchback_HBK-4P",
+					"valueConstant": null,
+					"additionalValues": null
+				  },
+				  {
+					"Type" : "System_ShowRewards",
+					"value" : "itemCollection_loot_FP_event2-0",
+					"valueConstant" : null,
+					"additionalValues" : null
+				}
+				],
+				"ForceEvents": null,
+				"TemporaryResult": false,
+				"ResultDuration": 0
+			  },
+			  {
+				"Scope": "Company",
+				"Requirements": {},
+				"AddedTags": {
+				  "items": [
+					"event_futureTech2"
+				  ],
+				  "tagSetSourceFile": "Tags/CompanyTags"
+				},
+				"RemovedTags": {
+				  "items": null,
+				  "tagSetSourceFile": ""
+				},
+				"Stats": null,
+				"Actions": null,
+				"ForceEvents": null,
+				"TemporaryResult": false,
+				"ResultDuration": 0
+			  }
+			]
+		  },
+		  {
+			"Description": {
+			  "Id": "outcome_1_1",
+			  "Name": "No attention drawn",
+			  "Details": "When the <i>Argo</i> arrives in orbit, you discover a crashed DropShip.\r\n\r\nA few dozen surviving pirates, mostly technicians and medics, beg for help.\r\n\r\nAfter confirming that they were part of the Future Tech crew, you agree to help them... for a price.\r\n\r\nThe 'Mech and medical techs get shuffled quickly aboard the <i>Hysteria</i>, while the rest get a Periphery dirt nap.\r\n\r\nYou leave a decent amount of Future Tech and the pirates' medium 'Mechs for the Aurigans to find... once the <i>Argo</i>'s out of the system.",
+			  "Icon": ""
+			},
+			"Weight": 25,
+			"Results": [
+			  {
+				"Scope": "Company",
+				"Requirements": {
+				  "items": [
+					"flashpoint_futureTech_complete"
+				  ],
+				  "AddedTags": {
+					"items": null,
+					"tagSetSourceFile": "Tags/CompanyTags"
+				  },
+				  "RemovedTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				  },
+				  "Stats": [
+					{
+						"typeString": "System.Int32",
+						"name": "Funds",
+						"value": "500000",
+						"set": false,
+						"valueConstant": null
+					  },
+					  {
+						"typeString" : "System.Int32",
+						"name" : "MechTechSkill",
+						"value" : "+8",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "MedTechSkill",
+						"value" : "+8",
+						"set" : false,
+						"valueConstant" : null
+					}
+				  ],
+				  "Actions": [
+					{
+					  "Type": "System_PauseNotification",
+					  "value": "A shame we had to leave those intact mediums behind, but at least we got a [[DM.MechDefs[mechdef_dragon_DRG-1N],Dragon]] and a [[DM.MechDefs[mechdef_catapult_CPLT-C1],Catapult]]. Tonnage is king, after all.",
+					  "additionalValues": [
+						"Dragon DRG-1N",
+					  "Catpult CPLT-C1",
+						"castDef_YangDefault"
+					  ],
+					  "valueConstant": null
+					},
+					{
+						"Type": "Mech_AddRoster",
+						"value": "mechdef_dragon_DRG-1N",
+						"valueConstant": null,
+						"additionalValues": null
+					},
+					{
+						"Type": "Mech_AddRoster",
+						"value": "mechdef_catapult_CPLT-C1",
+						"valueConstant": null,
+						"additionalValues": null
+					},
+					{
+						"Type" : "System_ShowRewards",
+						"value" : "itemCollection_loot_FP_event2-1",
+						"valueConstant" : null,
+						"additionalValues" : null
+					}
+				  ],
+				  "ForceEvents": null,
+				  "TemporaryResult": false,
+				  "ResultDuration": 0
+				}
+			  },
+			  {
+				"Scope": "Company",
+				"Requirements": {},
+				"AddedTags": {
+				  "items": [
+					"event_futureTech2"
+				  ],
+				  "tagSetSourceFile": "Tags/CompanyTags"
+				},
+				"RemovedTags": {
+				  "items": null,
+				  "tagSetSourceFile": ""
+				},
+				"Stats": null,
+				"Actions": null,
+				"ForceEvents": null,
+				"TemporaryResult": false,
+				"ResultDuration": 0
+			  }
+			]
+		  }
+		],
+		"Requirements": {
+		  "Scope": "Company",
+		  "RequirementTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		  },
+		  "ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		  },
+		  "RequirementComparisons": []
+		}
+	  },
+	  {
+		"Description": {
+		  "Id": "outcome_2",
+		  "Name": "Call in the Aurigans.",
+		  "Details": "Diplomatic option",
+		  "Icon": ""
+		},
+		"RequirementList": [],
+		"ResultSets": [
+		  {
+			"Description": {
+			  "Id": "outcome_2_0",
+			  "Name": "Friendly Co-workers",
+			  "Details": "The <i>Argo</i> makes an orbital rendezvous with a Restoration DropShip. Together, you work up a plan to deal with the surviving pirates.\r\n\r\nWorking together, the two crews pull a treasure trove of parts and a handful of 'Mechs,agreeing to split the 'Mech and medical techs between you.\r\n\r\nYou only get two of the 'Mechs, but a decent haul of Future Tech is better than nothing.",
+			  "Icon": ""
+			},
+			"Weight": 50,
+			"Results": [
+			  {
+				"Scope": "Company",
+				"Requirements": {
+				  "items": [
+					"flashpoint_futureTech_half", "event_futureTech1"
+				  ],
+				  "AddedTags": {
+					"items": null,
+					"tagSetSourceFile": "Tags/CompanyTags"
+				  },
+				  "RemovedTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				  },
+				  "Stats": [
+					{
+					  "typeString": "System.Int32",
+					  "name": "Reputation.AuriganRestoration",
+					  "value": "1",
+					  "set": false,
+					  "valueConstant": "[rep_gain_small]"
+					},
+					{
+					  "typeString": "System.Int32",
+					  "name": "Morale",
+					  "value": "1",
+					  "set": false,
+					  "valueConstant": null
+					},
+					{
+					  "typeString": "System.Int32",
+					  "name": "Funds",
+					  "value": "500000",
+					  "set": false,
+					  "valueConstant": null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "MechTechSkill",
+						"value" : "+4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "MedTechSkill",
+						"value" : "+4",
+						"set" : false,
+						"valueConstant" : null
+					}
+				  ],
+				  "Actions": [
+					{
+					  "Type": "System_PauseNotification",
+					  "value": "Well, Commander, we only got a [[DM.MechDefs[mechdef_dragon_DRG-1N],Dragon]] and a [[DM.MechDefs[mechdef_hunchback_HBK-4P],Hunchback]], but hey, any 'Mech is a good 'Mech in my book. Swing by the Mech Bay to check them out and order a Refit.",
+					  "additionalValues": [
+						"Dragon DRG-1N",
+					  "Catpult CPLT-C1",
+						"castDef_YangDefault"
+					  ],
+					  "valueConstant": null
+					},
+					{
+						"Type": "Mech_AddRoster",
+						"value": "mechdef_dragon_DRG-1N",
+						"valueConstant": null,
+						"additionalValues": null
+					},
+					{
+						"Type": "Mech_AddRoster",
+						"value": "mechdef_hunchback_HBK-4P",
+						"valueConstant": null,
+						"additionalValues": null
+					},
+					{
+						"Type" : "System_ShowRewards",
+						"value" : "itemCollection_loot_FP_event2-2",
+						"valueConstant" : null,
+						"additionalValues" : null
+					}
+				  ],
+				  "ForceEvents": null,
+				  "TemporaryResult": false,
+				  "ResultDuration": 0
+				}
+			  },
+			  {
+				"Scope": "Company",
+				"Requirements": {},
+				"AddedTags": {
+				  "items": [
+					"event_futureTech2"
+				  ],
+				  "tagSetSourceFile": "Tags/CompanyTags"
+				},
+				"RemovedTags": {
+				  "items": null,
+				  "tagSetSourceFile": ""
+				},
+				"Stats": null,
+				"Actions": null,
+				"ForceEvents": null,
+				"TemporaryResult": false,
+				"ResultDuration": 0
+			  }
+			]
+		  },
+		  {
+			"Description": {
+			  "Id": "outcome_2_1",
+			  "Name": "Brothers in Arms",
+			  "Details": "The <i>Argo</i> makes an orbital rendezvous with a Restoration DropShip. Being allies, you agree to pool resources with the Aurgians to pull as much salvage as possible.\r\n\r\nDeferring the responsiblity of dealing with prisoners to the Aurigans, you do manage to get half the 'Mech and medical techs for your trouble.\r\n\r\nNegotiations were a bit hard, but you managed to get the better of the Aurigan captain when it came to the 'Mechs.",
+			  "Icon": ""
+			},
+			"Weight": 50,
+			"Results": [
+			  {
+				"Scope": "Company",
+				"Requirements": {
+				  "items": [
+					"flashpoint_futureTech_complete", "event_futureTech1"
+				  ],
+				  "AddedTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				  },
+				  "RemovedTags": {
+					"items": null,
+					"tagSetSourceFile": ""
+				  },
+				  "Stats": [
+					{
+					  "typeString": "System.Int32",
+					  "name": "Funds",
+					  "value": "500000",
+					  "set": false,
+					  "valueConstant": null
+					},
+					{
+					  "typeString": "System.Int32",
+					  "name": "Reputation.AuriganRestoration",
+					  "value": "1",
+					  "set": false,
+					  "valueConstant": "[rep_gain_large]"
+					},
+					{
+					  "typeString": "System.Int32",
+					  "name": "Morale",
+					  "value": "3",
+					  "set": false,
+					  "valueConstant": null
+					}
+				  ],
+				  "Actions": [
+					{
+					  "Type": "System_PauseNotification",
+					  "value": "That was a hell of a deal you made, Commander. We got ourselves a [[DM.MechDefs[mechdef_catapult_CPLT-C1],Catapult]] and a [[DM.MechDefs[mechdef_trebuchet_TBT-5N],Trebuchet]]. Wish we could've gotten more, but the Aurigans need them even more than we do.",
+					  "additionalValues": [
+						"Catapult CPLT-C1",
+						"Trebuchet TBT-5N",
+						"castDef_YangDefault"
+					  ],
+					  "valueConstant": null
+					},
+					{
+					  "Type": "Mech_AddRoster",
+					  "value": "mechdef_catapult_CPLT-C1",
+					  "valueConstant": null,
+					  "additionalValues": null
+					},
+					{
+					  "Type": "Mech_AddRoster",
+					  "value": "mechdef_trebuchet_TBT-5N",
+					  "valueConstant": null,
+					  "additionalValues": null
+					},
+					{
+						"Type" : "System_ShowRewards",
+						"value" : "itemCollection_loot_FP_event2-2",
+						"valueConstant" : null,
+						"additionalValues" : null
+					}
+				  ],
+				  "ForceEvents": null,
+				  "TemporaryResult": false,
+				  "ResultDuration": 0
+				}
+			  },
+			  {
+				"Scope": "Company",
+				"Requirements": {},
+				"AddedTags": {
+				  "items": [
+					"event_futureTech2"
+				  ],
+				  "tagSetSourceFile": "Tags/CompanyTags"
+				},
+				"RemovedTags": {
+				  "items": null,
+				  "tagSetSourceFile": ""
+				},
+				"Stats": null,
+				"Actions": null,
+				"ForceEvents": null,
+				"TemporaryResult": false,
+				"ResultDuration": 0
+			  }
+			]
+		  }
+		],
+		"Requirements": {
+		  "Scope": "Company",
+		  "RequirementTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		  },
+		  "ExclusionTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		  },
+		  "RequirementComparisons": []
+		}
+	  }
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "NORMAL"
+  }
