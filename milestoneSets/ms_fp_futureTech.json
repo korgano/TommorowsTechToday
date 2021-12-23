@@ -124,8 +124,8 @@
                             "value" : "9c0ff894ea47c4f4b0d8bdfc",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                "Lost Tech Retrieval",
-                                "High Orbit \u2014 Appian",
+                                "{TGT_FLASHPOINT.Def.Description.Name}",
+                                "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
                                 "Conference",
                                 null
                             ]
@@ -280,7 +280,7 @@
                                 "AuriganRestoration",
                                 "AuriganPirates",
                                 "6",
-                                "ms_fp_futureTech_101_TalkChoice1",
+                                "ms_fp_futureTech_101_TalkBrief1",
                                 null,
                                 null,
                                 null
@@ -306,9 +306,9 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_futureTech_101_TalkChoice1",
-                "Name" : "TalkChoice1",
-                "Details" : "Talk before choosing Mission 2A or 2B",
+                "Id" : "ms_fp_futureTech_101_TalkBrief1",
+                "Name" : "TalkBrief1",
+                "Details" : "Conversation About Pirate weapons",
                 "Icon" : null
             },
             "Scope" : "Company",
@@ -343,15 +343,15 @@
                             "value" : "9c7be8c209b42e6eda79ca62",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                "Lost Tech Retrieval II",
-                                "High Orbit \u2014 Appian",
+                                "{TGT_FLASHPOINT.Def.Description.Name} II",
+                                "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
                                 "Conference",
                                 null
                             ]
                         },
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_futureTech_102_Branch",
+                            "value" : "ms_fp_futureTech_102_Mission2",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -367,98 +367,9 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_futureTech_102_Branch",
-                "Name" : "Mission Branch",
-                "Details" : "Branch for Mission 2A or 2B",
-                "Icon" : null
-            },
-            "Scope" : "Company",
-            "Requirements" : [],
-            "Results" : [
-                {
-                    "Scope" : "Company",
-                    "Requirements" : {
-                        "Scope" : "Flashpoint",
-                        "RequirementTags" : {
-                            "items" : [
-                                "fp_choice_a"
-                            ],
-                            "tagSetSourceFile" : "Tags/CompanyTags"
-                        },
-                        "ExclusionTags" : {
-                            "items" : [],
-                            "tagSetSourceFile" : ""
-                        },
-                        "RequirementComparisons" : []
-                    },
-                    "AddedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "RemovedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "Stats" : null,
-                    "Actions" : [
-                        {
-                            "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_futureTech_200_Op2A",
-                            "valueConstant" : null,
-                            "additionalValues" : null
-                        }
-                    ],
-                    "ForceEvents" : null,
-                    "TemporaryResult" : false,
-                    "ResultDuration" : 0
-                },
-                {
-                    "Scope" : "Company",
-                    "Requirements" : {
-                        "Scope" : "Flashpoint",
-                        "RequirementTags" : {
-                            "items" : [
-                                "fp_choice_b"
-                            ],
-                            "tagSetSourceFile" : ""
-                        },
-                        "ExclusionTags" : {
-                            "items" : [],
-                            "tagSetSourceFile" : ""
-                        },
-                        "RequirementComparisons" : []
-                    },
-                    "AddedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "RemovedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "Stats" : null,
-                    "Actions" : [
-                        {
-                            "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_futureTech_201_Op2B",
-                            "valueConstant" : null,
-                            "additionalValues" : null
-                        }
-                    ],
-                    "ForceEvents" : null,
-                    "TemporaryResult" : false,
-                    "ResultDuration" : 0
-                }
-            ],
-            "Repeatable" : false,
-            "UseRandomInvocation" : false,
-            "InvokeChance" : 0
-        },
-        {
-            "Description" : {
-                "Id" : "ms_fp_futureTech_200_Op2A",
-                "Name" : "Mission 2A",
-                "Details" : "Attack Pirate Convoy",
+                "Id" : "ms_fp_futureTech_102_Mission2",
+                "Name" : "Mission2",
+                "Details" : "Mission 2 - Convoy Attack",
                 "Icon" : null
             },
             "Scope" : "Company",
@@ -489,7 +400,7 @@
                     "Stats" : null,
                     "Actions" : [
                         {
-                            "Type" : "Flashpoint_StartContract",
+                            "Type" : "Flashpoint_AddContract",
                             "value" : "mapGeneral_alpinePass_iGlc",
                             "valueConstant" : null,
                             "additionalValues" : [
@@ -499,7 +410,7 @@
                                 "AuriganRestoration",
                                 "AuriganPirates",
                                 "5",
-                                "ms_fp_futureTech_203_Talk2",
+                                "ms_fp_futureTech_103_mission3",
                                 null,
                                 null,
                                 "ms_fp_futureTech_402_HalfReward",
@@ -527,9 +438,9 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_futureTech_201_Op2B",
-                "Name" : "Mission 2B",
-                "Details" : "Eliminate enemy forces",
+                "Id" : "ms_fp_futureTech_103_Mission3",
+                "Name" : "Mission3",
+                "Details" : "Mission 3 - Eliminate Enemy Forces + Looby1",
                 "Icon" : null
             },
             "Scope" : "Company",
@@ -570,20 +481,12 @@
                                 "AuriganRestoration",
                                 "AuriganPirates",
                                 "5",
-                                "ms_fp_futureTech_203_Talk2",
+                                "ms_fp_futureTech_201_Talk2",
                                 null,
                                 null,
                                 "ms_fp_futureTech_402_HalfReward",
                                 null,
                                 "HostileMercenaries"
-                            ]
-                        },
-                        {
-                            "Type" : "System_ForceDropshipRoom",
-                            "value" : "Contract",
-                            "valueConstant" : null,
-                            "additionalValues" : [
-                                "BaseFlashpoint"
                             ]
                         }
                     ],
@@ -598,7 +501,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_futureTech_203_Talk2",
+                "Id" : "ms_fp_futureTech_201_Talk2",
                 "Name" : "Talk2",
                 "Details" : "Talk2 - Obidiah Looby",
                 "Icon" : null
@@ -635,15 +538,15 @@
                             "value" : "9c240d0078befb0a25612582",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                "Lost Tech Retrieval III",
-                                "High Orbit \u2014 Appian",
+                                "{TGT_FLASHPOINT.Def.Description.Name} III",
+                                "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
                                 "Conference",
                                 null
                             ]
                         },
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_futureTech_204_Branch2",
+                            "value" : "ms_fp_futureTech_202_Branch2",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -659,7 +562,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_futureTech_204_Branch2",
+                "Id" : "ms_fp_futureTech_201_Branch2",
                 "Name" : "Branch2",
                 "Details" : "Pick Op3A, OP 3B, or Bail on contract",
                 "Icon" : null
@@ -673,7 +576,7 @@
                         "Scope" : "Flashpoint",
                         "RequirementTags" : {
                             "items" : [
-                                "fp_choice_c"
+                                "fp_choice_a"
                             ],
                             "tagSetSourceFile" : ""
                         },
@@ -718,7 +621,7 @@
                         "Scope" : "Flashpoint",
                         "RequirementTags" : {
                             "items" : [
-                                "fp_choice_d"
+                                "fp_choice_b"
                             ],
                             "tagSetSourceFile" : ""
                         },
@@ -763,16 +666,12 @@
                         "Scope" : "Flashpoint",
                         "RequirementTags" : {
                             "items" : [
-                                "fp_choice_e"
+                                "fp_choice_c"
                             ],
                             "tagSetSourceFile" : ""
                         },
                         "ExclusionTags" : {
-                            "items" : [
-                                "fp_choice_cancel",
-                                "fp_choice_c",
-                                "fp_choice_d"
-                            ],
+                            "items" : [],
                             "tagSetSourceFile" : ""
                         },
                         "RequirementComparisons" : []
@@ -984,8 +883,8 @@
                             "value" : "9c4a18d91bd5734d69a0bed7",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                "Lost Tech Retrieval IV",
-                                "High Orbit \u2014 Appian",
+                                "{TGT_FLASHPOINT.Def.Description.Name} IV",
+                                "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
                                 "Conference",
                                 null
                             ]
@@ -1025,10 +924,7 @@
                             "tagSetSourceFile" : ""
                         },
                         "ExclusionTags" : {
-                            "items" : [
-                                "fp_choice_cancel",
-                                "fp_choice_e"
-                            ],
+                            "items" : [],
                             "tagSetSourceFile" : ""
                         },
                         "RequirementComparisons" : []
@@ -1060,7 +956,7 @@
                         "Scope" : "Flashpoint",
                         "RequirementTags" : {
                             "items" : [
-                                "fp_choice_e"
+                                "fp_choice_c"
                             ],
                             "tagSetSourceFile" : ""
                         },
@@ -1075,7 +971,10 @@
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {
-                        "items" : [],
+                        "items" : [
+                            "fp_choice_a",
+                            "fp_choice_b"
+                        ],
                         "tagSetSourceFile" : ""
                     },
                     "Stats" : null,
@@ -1277,8 +1176,8 @@
                             "value" : "9ce265c40c96d6d13c7f57aa",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                "Lost Tech Retrieval V",
-                                "High Orbit \u2014 Appian",
+                                "{TGT_FLASHPOINT.Def.Description.Name} V",
+                                "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
                                 "Conference",
                                 null
                             ]

@@ -41,7 +41,7 @@
                 "EncounterObjectGuid" : "bad503ac-4f47-47b0-a735-a5b13ff0e352"
             },
             "title" : "Destroy the Supply Convoy and Escape",
-            "description" : "The ENEMYFACTION scum are trying to get from one place to another. Kill them.",
+            "description" : "The ENEMYFACTION are trying to get from one place to another. Kill them before they can regroup.",
             "isPrimary" : true,
             "forPlayer" : "Player1",
             "objectiveGuids" : [

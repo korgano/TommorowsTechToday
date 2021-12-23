@@ -53,7 +53,7 @@
 	    "revealRadius" : -1
 	},
     {
-        "words" : "Yeah, well, they had to be, to survive Fjaldr.",
+        "words" : "No sign of Looby yet. It's making me antsy.",
         "wordsColor" : {
             "r" : 1,
             "g" : 1,
@@ -69,7 +69,7 @@
         "revealRadius" : -1
     },
 	{
-	    "words" : "We <i>really</i> need to talk about this once you get back, Commander.",
+	    "words" : "We need to have a long talk about that.",
 	    "wordsColor" : {
 		"r" : 1,
 		"g" : 1,

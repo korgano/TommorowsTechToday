@@ -37,7 +37,7 @@
 	    "revealRadius" : -1
 	},
 	{
-	    "words" : "One unit in particular, Looby's Legion, caused us a lot of problems.",
+	    "words" : "We've got mercenaries that seem to be working for every faction on this side of the Inner Sphere, fighting each other, the pirates, <i>and</i> us.",
 	    "wordsColor" : {
 		"r" : 1,
 		"g" : 1,
@@ -53,55 +53,23 @@
 	    "revealRadius" : -1
 	},
     {
-        "words" : "It can't be! I thought they disbanded after Fjaldr!",
-        "wordsColor" : {
-            "r" : 1,
-            "g" : 1,
-            "b" : 1,
-            "a" : 1
-        },
-        "selectedCastDefId" : "castDef_SumireDefault",
-        "emote" : "Default",
-        "audioName" : "NONE",
-        "cameraFocusGuid" : "",
-        "cameraDistance" : "Far",
-        "cameraHeight" : "Default",
-        "revealRadius" : -1
-    },
-    {
-        "words" : "Major Looby! This is Sumire Meyer of-",
-        "wordsColor" : {
-            "r" : 1,
-            "g" : 1,
-            "b" : 1,
-            "a" : 1
-        },
-        "selectedCastDefId" : "castDef_SumireDefault",
-        "emote" : "Default",
-        "audioName" : "NONE",
-        "cameraFocusGuid" : "",
-        "cameraDistance" : "Far",
-        "cameraHeight" : "Default",
-        "revealRadius" : -1
-    },
-    {
-        "words" : "Goddamn it, Sumire! Don't broadcast on an open channel!",
-        "wordsColor" : {
-            "r" : 1,
-            "g" : 1,
-            "b" : 1,
-            "a" : 1
-        },
-        "selectedCastDefId" : "castDef_DariusDefault",
-        "emote" : "Default",
-        "audioName" : "NONE",
-        "cameraFocusGuid" : "",
-        "cameraDistance" : "Far",
-        "cameraHeight" : "Default",
-        "revealRadius" : -1
-    },
+	    "words" : "I think the phrase 'political shitstorm' applies here. I recommend you move to take out those pirate reinforcements before the mercenaries do.",
+	    "wordsColor" : {
+		"r" : 1,
+		"g" : 1,
+		"b" : 1,
+		"a" : 1
+	    },
+	    "selectedCastDefId" : "castDef_MadeiraDefault",
+	    "emote" : "Default",
+	    "audioName" : "NONE",
+	    "cameraFocusGuid" : "",
+	    "cameraDistance" : "Far",
+	    "cameraHeight" : "Default",
+	    "revealRadius" : -1
+	},
 	{
-	    "words" : "Commander, you <i>really</i> need to get up here to deal with this shit.",
+	    "words" : "Lets hope the skies stay clear long enough for you to reach the next LZ.",
 	    "wordsColor" : {
 		"r" : 1,
 		"g" : 1,

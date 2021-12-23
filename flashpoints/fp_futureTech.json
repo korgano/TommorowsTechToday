@@ -38,7 +38,7 @@
     "AvailableTimeout" : 0,
     "UseInProgressTimeoutOverride" : false,
     "InProgressTimeout" : 0,
-    "RewardCollectionID" : "itemCollection_Mechs_rare",
+    "RewardCollectionID" : "itemCollection_loot_Mech_SLDF",
     "UnitDropTonnageHint" : "None",
     "LanceDropTonnageHint" : "Heavy",
     "FlashpointShortDescription" : "Lady Arano has a high priority job for us. Seems like some pirates have gotten a hold on some LosTech and started trouble in the border regions. She wants us to help her forces take out the pirates' base of operations, in exchange for a cut of LosTech and a healthy payment.",
