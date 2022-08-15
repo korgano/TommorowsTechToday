@@ -1,0 +1,69 @@
+{
+    "Category" : "Ballistic",
+    "Type" : "Gauss",
+    "WeaponSubType" : "Gauss",
+    "MinRange" : 150,
+    "MaxRange" : 1000,
+    "RangeSplit" : [
+        350,
+        350,
+        1000
+    ],
+    "ammoCategoryID" : "GAUSS",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 5,
+    "Damage" : 10,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "StructureDamage" : 5,
+    "AccuracyModifier" : -1,
+    "CriticalChanceMultiplier" : 1.5,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 10,
+    "AttackRecoil" : 4,
+    "Instability" : 40,
+    "CanExplode" : true,
+    "WeaponEffectID" : "WeaponEffect-Weapon_LB5X",
+    "Description" : {
+        "Cost" : 900000,
+        "Rarity" : 99,
+        "Purchasable" : false,
+        "Manufacturer" : "SCI",
+        "Model" : "Magnetic Cluster Cannon (FT)",
+        "UIName" : "Multi Gauss (FT)",
+        "Id" : "Weapon_Gauss_Gauss_4-Future",
+        "Name" : "Multi Gauss (FT)",
+        "Details" : "This 3333-era weapon uses Gauss Rifle technology to fire multiple projectiles in a single volley. It'll break shatter most armor in no time.\n\nGauss weapons explode if destroyed, taking the entire mounted location with them.",
+        "Icon" : "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA" : "+50% Crit.",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "Gauss",
+    "BattleValue" : 0,
+    "InventorySize" : 3,
+    "Tonnage" : 8,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "VolleyDivisor" : 10,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "component_type_futuretech",
+            "range_extreme",
+			"BLACKLISTED"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

@@ -1,0 +1,117 @@
+{
+    "Category" : "AntiPersonnel",
+    "Type" : "PPC",
+    "WeaponSubType" : "PPCSnub",
+    "MinRange" : 0,
+    "MaxRange" : 250,
+    "RangeSplit" : [
+        150,
+        150,
+        250
+    ],
+    "ammoCategoryID" : "NotSet",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 20,
+    "Damage" : 15,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 3,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 1,
+    "ShotsWhenFired" : 5,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 1,
+    "Instability" : 7.5,
+    "WeaponEffectID" : "WeaponEffect-Weapon_PPCSnub",
+    "Description" : {
+        "Cost" : 900000,
+        "Rarity" : 99,
+        "Purchasable" : true,
+        "Manufacturer" : "Magna",
+        "Model" : "Particle Cluster Cannon",
+        "UIName" : "Super Snub PPC",
+        "Id" : "Weapon_PPC_PPCSnub_4-Mini",
+        "Name" : "Mini Snub PPC",
+        "Details" : "3333's prefered antipersonnel support weapon is miniaturized Snub PPC. It doesn't have the range or damage of a Super Snub PPC, but it is a major improvement over existing weapons.",
+        "Icon" : "uixSvgIcon_weapon_Support"
+    },
+    "BonusValueA" : "+ 3 Heat Dmg. per shot",
+    "BonusValueB" : "+1 Sensors Impaired",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "PPC",
+    "InventorySize" : 1,
+    "Tonnage" : 2,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "VolleyDivisor" : 1,
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : 1,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : 0,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "NotSet",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "AbilityDefPPC",
+                "Name" : "SENSORS IMPAIRED",
+                "Details" : "+[AMT] Difficulty to all of this unit's attacks until its next activation.",
+                "Icon" : "uixSvgIcon_status_sensorsImpaired"
+            },
+            "nature" : "Debuff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "1.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant2",
+            "range_close",
+            "component_type_lostech",
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

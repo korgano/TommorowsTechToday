@@ -14,7 +14,7 @@
    "showLastName" : true,
    "defaultEmotePortrait" : {
       "emote" : "Default",
-      "portraitAssetPath" : "castSprites/guiTxrPort_fp_obadiah_looby.png"
+      "portraitAssetPath" : "../../Mods/TomorrowsTechToday/castSprites/guiTxrPort_fp_obadiah_looby.png"
    },
    "emotePotraitList" : [
       

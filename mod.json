@@ -3,10 +3,10 @@
     "Enabled": true,
 	"BattleTechVersionMin": "1.9",
 
-    "Version": "0.1.0",
+    "Version": "0.6.0",
     "Description": "A Flashpoint that offers non-canon goodies",
     "Author": "kregano",
-    "Website": "www.github.com/BattletechModders/ModTek",
+    "Website": "https://github.com/korgano/TommorowsTechToday",
     "Contact": "fakeemail@fakeemail.com",
 
     "DLL": "HSConverter.dll",
@@ -25,8 +25,8 @@
 		{ "Type": "HeatSinkDef", "Path": "MyHeatsink" },
         { "Type": "CastDef", "Path": "cast" },
         { "Type": "ContractOverride", "Path": "contracts" },
-        { "Type": "ConversationContent", "Path": "dialogue_buckets" },
-        { "Type": "DialogBucketDef", "Path": "conversationBuckets" },
+        { "Type": "ConversationContent", "Path": "conversationBuckets" },
+        { "Type": "DialogBucketDef", "Path": "dialogue_buckets" },
         { "Type": "FlashpointDef", "Path": "flashpoints" },
         { "Type": "HeraldryDef", "Path": "heraldry" },
         { "Type": "ItemCollectionDef", "Path": "itemCollections" },
@@ -35,6 +35,7 @@
         { "Type": "SimGameEventDef", "Path": "events" },
         { "Type": "SimGameMilestoneSet", "Path": "milestoneSets" },
         { "Type": "Sprite", "Path": "sprites" },
+		{ "Type": "Texture2D",  "Path": "textures", "AddToDB": true, "AddToAddendum": "ConversationTexture" },
         { "Type": "ShipModuleUpgrade", "Path": "ShipUpgrades"},
         { "Type": "VehicleDef", "Path": "MyVehicles"},
         { "Type": "TurretDef", "Path": "turret"}

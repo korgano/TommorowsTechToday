@@ -344,7 +344,7 @@
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "{TGT_FLASHPOINT.Def.Description.Name} II",
-                                "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
+                                "High Orbit \\u2014 {TGT_FLASHPOINT.CurSystem.Name}",
                                 "Conference",
                                 null
                             ]
