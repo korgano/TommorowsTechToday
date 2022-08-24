@@ -1,0 +1,8 @@
+{
+   "identifier" : "DialogBucketDef_CaptureEscort_ObjSecured",
+   "DialogueContentIDs" : [
+    "Bkt_CaptureEscort_ObjSecured_1",
+    "Bkt_CaptureEscort_ObjSecured_2",
+    "Bkt_CaptureEscort_ObjSecured_3"   
+   ]
+}

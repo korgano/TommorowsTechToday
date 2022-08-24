@@ -562,7 +562,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_futureTech_201_Branch2",
+                "Id" : "ms_fp_futureTech_202_Branch2",
                 "Name" : "Branch2",
                 "Details" : "Pick Op3A, OP 3B, or Bail on contract",
                 "Icon" : null
@@ -601,14 +601,6 @@
                             "value" : "ms_fp_futureTech_300_Op3A",
                             "valueConstant" : null,
                             "additionalValues" : null
-                        },
-                        {
-                            "Type" : "System_SimGameCharacterVisible",
-                            "value" : "True",
-                            "valueConstant" : null,
-                            "additionalValues" : [
-                                "Alexander"
-                            ]
                         }
                     ],
                     "ForceEvents" : null,
@@ -646,14 +638,6 @@
                             "value" : "ms_fp_futureTech_301_Op3B",
                             "valueConstant" : null,
                             "additionalValues" : null
-                        },
-                        {
-                            "Type" : "System_SimGameCharacterVisible",
-                            "value" : "True",
-                            "valueConstant" : null,
-                            "additionalValues" : [
-                                "Alexander"
-                            ]
                         }
                     ],
                     "ForceEvents" : null,
@@ -878,6 +862,14 @@
                     },
                     "Stats" : null,
                     "Actions" : [
+                        {
+                            "Type" : "System_SimGameCharacterVisible",
+                            "value" : "True",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "Alexander"
+                            ]
+                        },
                         {
                             "Type" : "System_StartConversation",
                             "value" : "9c4a18d91bd5734d69a0bed7",
@@ -1107,7 +1099,7 @@
                             "additionalValues" : [
                                 null,
                                 null,
-                                "Contract Name",
+                                "c_fp_futureTech_5_DefendBase",
                                 "AuriganRestoration",
                                 "ComStar",
                                 "8",

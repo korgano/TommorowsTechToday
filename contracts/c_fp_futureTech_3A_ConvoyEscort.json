@@ -514,7 +514,7 @@
                 "EncounterObjectGuid" : "59fd62f4-62f0-4e14-b203-d796e231c3a8"
             },
             "name" : "Dialogue_HoldOutOrders",
-            "overrideDialogueBucketId" : "DialogBucketDef_CaptureEscort_InPositionHoldOut",
+            "overrideDialogueBucketId" : "DialogBucketDef_CaptureEscort_InPositionHoldOut_FT",
             "dialogueContent" : [
                 {
                     "words" : "You've reached the extraction point for the objective vehicles. Hold there are keep them safe until we can get them out.",
@@ -580,7 +580,7 @@
                 "EncounterObjectGuid" : "e8895550-a34c-4545-aa0b-27d4dfd21eeb"
             },
             "name" : "Dialogue_ConvoyExtractSuccessEscapeInstruction",
-            "overrideDialogueBucketId" : "DialogBucketDef_CaptureEscort_ObjSecured",
+            "overrideDialogueBucketId" : "DialogBucketDef_CaptureEscort_ObjSecured_FT",
             "dialogueContent" : [
                 {
                     "words" : "And they are away! The convoy is safely out of the AO. Good work, Commander. Now get your remaining forces to the second evac zone for extraction there.",
@@ -605,7 +605,7 @@
                 "EncounterObjectGuid" : "e066d510-3c33-4caf-8c40-39f15c92936a"
             },
             "name" : "Dialogue_EscortProximity",
-            "overrideDialogueBucketId" : "DialogBucketDef_CaptureEscort_EscortProximity",
+            "overrideDialogueBucketId" : "DialogBucketDef_CaptureEscort_EscortProximity_FT",
             "dialogueContent" : []
         }
     ],

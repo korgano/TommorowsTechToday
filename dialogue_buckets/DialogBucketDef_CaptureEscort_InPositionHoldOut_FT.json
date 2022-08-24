@@ -1,0 +1,8 @@
+{
+   "identifier" : "DialogBucketDef_CaptureEscort_InPositionHoldOut",
+   "DialogueContentIDs" : [
+    "Bkt_CaptureEscort_InPositionHoldOut_1",
+    "Bkt_CaptureEscort_InPositionHoldOut_2",
+    "Bkt_CaptureEscort_InPositionHoldOut_3"
+   ]
+}

@@ -1,0 +1,8 @@
+{
+   "identifier" : "DialogBucketDef_CaptureEscort_EscortProximity",
+   "DialogueContentIDs" : [
+    "Bkt_CaptureEscort_EscortProximity_1FT",
+    "Bkt_CaptureEscort_EscortProximity_2FT",
+    "Bkt_CaptureEscort_EscortProximity_3FT"
+   ]
+}

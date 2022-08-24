@@ -1,0 +1,42 @@
+{
+    "identifier" : "Bkt_CaptureEscort_InPositionHoldOut_2",
+    "contents" : [
+        {
+            "words" : "Good work, Commander. Hold this position until the package is underway.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_DariusDefault",
+            "emote" : "Default",
+            "dialogueOrigin" : "pilot",
+            "audioEventEntryIndex" : 0,
+            "audioEventEntryText" : "Audio_Event_CaptureEscort_HoldOut_2",
+            "conversationIdx" : 0,
+            "cameraFocus" : {
+                "EncounterObjectGuid" : ""
+            },
+            "cameraDistance" : "Far",
+            "cameraHeight" : "Default",
+            "revealRadius" : -1
+        },
+        {
+            "words" : "Keep an eye out for hostile mercs or pirates. Hopefully, there won't be an AA units in the area.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_AranoGuardsman",
+            "emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Close",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+        }
+    ]
+}

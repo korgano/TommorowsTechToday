@@ -1,0 +1,42 @@
+{
+    "identifier" : "Bkt_CaptureEscort_ObjSecured_1",
+    "contents" : [
+        {
+            "words" : "Thanks for getting us out of here safely, Commander.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_AranoGuardsman",
+            "emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Close",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+        },
+        {
+            "words" : "The objective is secured, Commander.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_DariusDefault",
+            "emote" : "Default",
+            "dialogueOrigin" : "pilot",
+            "audioEventEntryIndex" : 0,
+            "audioEventEntryText" : "Audio_Event_CaptureEscort_ObjectiveSecured_1",
+            "conversationIdx" : 0,
+            "cameraFocus" : {
+                "EncounterObjectGuid" : ""
+            },
+            "cameraDistance" : "Far",
+            "cameraHeight" : "Default",
+            "revealRadius" : -1
+        }        
+    ]
+}

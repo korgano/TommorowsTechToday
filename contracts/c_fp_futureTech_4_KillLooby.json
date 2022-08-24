@@ -405,7 +405,7 @@
                 "EncounterObjectGuid" : "cbb7a848-5367-478a-82f2-256bb94080e6"
             },
             "name" : "Dialogue_AmbushDestroyed",
-            "overrideDialogueBucketId" : "DialogBucketDef_Universal_KillConfirmed",
+            "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
                     "words" : "Readings indicate they're out of commission. There goes the rest of the Legion. ",
@@ -430,7 +430,7 @@
                 "EncounterObjectGuid" : "cc82de54-d0b5-4227-bb23-dc845ea88833"
             },
             "name" : "Dialogue_TargetDamaged",
-            "overrideDialogueBucketId" : "DialogBucketDef_Assassinate_TarDamaged",
+            "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
                     "words" : "Keep firing, Commander! Looby's one hard SOB to kill!",
@@ -455,7 +455,7 @@
                 "EncounterObjectGuid" : "4a6a16e6-15ea-4c14-8075-a77089825af7"
             },
             "name" : "Dialogue_AmbushWarning",
-            "overrideDialogueBucketId" : "DialogBucketDef_Assassinate_AmbushWarning",
+            "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
                     "words" : "Sensors are showing enemy movement beyond our initial count. Be advised you might meet with increased resistance.",
@@ -480,7 +480,7 @@
                 "EncounterObjectGuid" : "9fb497e2-e3cf-410a-92c6-8943c6e09533"
             },
             "name" : "Dialogue_TargetFleeing",
-            "overrideDialogueBucketId" : "DialogBucketDef_Assassinate_TargetFleeing",
+            "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
                     "words" : "Commander, Looby is bugging out! Eliminate him before he can escape!",

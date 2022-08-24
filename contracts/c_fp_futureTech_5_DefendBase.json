@@ -2,7 +2,7 @@
     "ID" : "c_fp_futureTech_5_DefendBase",
     "contractName" : "Protect the Loot",
     "contractDisplayStyle" : "BaseFlashpoint",
-    "difficulty" : 8,
+    "difficulty" : 10,
     "difficultyUIModifier" : 0,
     "weight" : 1,
     "scope" : "MID_CAMPAIGN",
@@ -277,7 +277,7 @@
             "encounterChunk" : {
                 "EncounterObjectGuid" : "2340cc58-51b0-4db7-a9ff-f5ff08d86d01"
             },
-            "enableChunkFromContract" : false,
+            "enableChunkFromContract" : true,
             "controlledByContractChunkGroupList" : [],
             "requirementList" : []
         },
@@ -372,7 +372,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "We're picking up {TEAM_TAR.FactionDef.Demonym} comm chatter from this area. It's heavily encrypted, so no chance to find out who it is.",
+                    "words" : "We're picking up enemy comm chatter from this area. It's heavily encrypted, so no chance to find out who it is.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -427,6 +427,22 @@
                     "cameraDistance" : "Far",
                     "cameraHeight" : "Default",
                     "revealRadius" : -1
+                },
+                {
+                    "words" : "If we're lucky, we might even get the real story behind all this craziness.",
+                    "wordsColor" : {
+                        "r" : 1,
+                        "g" : 1,
+                        "b" : 1,
+                        "a" : 1
+                    },
+                    "selectedCastDefId" : "castDef_DariusDefault",
+                    "emote" : "Default",
+                    "audioName" : "NONE",
+                    "cameraFocusGuid" : "",
+                    "cameraDistance" : "Far",
+                    "cameraHeight" : "Default",
+                    "revealRadius" : -1
                 }
             ]
         },
@@ -438,7 +454,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "Raiders, we could handle. Unknown {TEAM_TAR.FactionDef.Demonym} units? Let's pack it in, Commander.",
+                    "words" : "Raiders, we could handle. Unknown, possibly LosTech equipped units? Let's pack it in, Commander.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -463,14 +479,14 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "We're in Position! All engineers have disembarked from their vehicles. The APCs will scatter and support you. Keep the Turrets online and we'll keep firing",
+                    "words" : "We're in Position! All engineers have disembarked from their vehicles. The APCs will scatter and support you. Keep the turrets in one piece and we'll keep firing.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_DariusDefault",
+                    "selectedCastDefId" : "castDef_AranoGuardsman",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -510,7 +526,7 @@
                 "EncounterObjectGuid" : "d382339d-0cc4-483f-b64d-4a93f3009f7e"
             },
             "name" : "Dialogue_BuildingDamaged",
-            "overrideDialogueBucketId" : "DialogBucketDef_DefendBase_AllyStruct-Damaged",
+            "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
                     "words" : "Commander, some of the target buildings are sustaining damage. We need to keep them intact, to avoid losing any of the LosTech. ",
@@ -878,7 +894,7 @@
         "teamGuid" : "ecc8d4f2-74b4-465d-adf6-84445e5dfc230",
         "teamName" : "EmployerTeam",
         "faction" : "INVALID_UNSET",
-        "teamLeaderCastDefId" : "castDef_TeamLeader_Current",
+        "teamLeaderCastDefId" : "castDef_AranoGuardsman",
         "lanceOverrideList" : [
             {
                 "lanceSpawner" : {
@@ -887,7 +903,7 @@
                 "name" : "FT Standard Turret Lance",
                 "lanceDefId" : "lancedef_turret_FT_heavyTurret",
                 "lanceTagSet" : {
-                    "items" : [],
+                    "items" : ["lance_ft"],
                     "tagSetSourceFile" : "tags/LanceTags"
                 },
                 "lanceExcludedTagSet" : {

@@ -1,0 +1,53 @@
+{
+    "identifier" : "Bkt_CaptureEscort_EscortProximity_3",
+    "contents" : [
+        {
+            "words" : "Where the hell is our escort? We can't move without you!",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_AranoGuardsman",
+            "emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Close",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+        },
+        {
+            "words" : "We lose these supplies, the whole mission's a bust!",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_AranoGuardsman",
+            "emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Close",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+        },
+		{
+            "words" : "They aren't wrong, Commander. They're sitting ducks without our support.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_DariusDefault",
+            "emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+        }
+    ]
+}
