@@ -13,47 +13,48 @@
    "TurretTags": {
       "items": [
          "unit_turret",
-         "unit_heavy"         
+         "unit_heavy",
+         "unit_ft"         
       ],
       "tagSetSourceFile": ""
    },
-   "CurrentArmor" : 300,
+   "CurrentArmor" : 400,
    "CurrentInternalStructure" : 1,
-   "AssignedArmor" : 300,
+   "AssignedArmor" : 400,
    "DamageLevel" : "Functional",
    "inventory" : [
     {
-      "ComponentDefID": "Weapon_LRM_LRM15_4-Future",
+      "ComponentDefID": "Weapon_LRM_LRM20_4-Future",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
 	  "DamageLevel" : "Functional"
     },
     {
-      "ComponentDefID": "Weapon_LRM_LRM15_4-Future",
+      "ComponentDefID": "Weapon_LRM_LRM20_4-Future",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 1,
 	  "DamageLevel" : "Functional"
     },
     {
-      "ComponentDefID": "Weapon_LRM_LRM15_4-Future",
+      "ComponentDefID": "Weapon_LRM_LRM20_4-Future",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 2,
 	  "DamageLevel" : "Functional"
     },
     {
-      "ComponentDefID": "Weapon_LRM_LRM15_4-Future",
+      "ComponentDefID": "Weapon_LRM_LRM20_4-Future",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 3,
 	  "DamageLevel" : "Functional"
     },
     {
-      "ComponentDefID": "Weapon_PPC_PPCSnub_4-Mini",
+      "ComponentDefID": "Weapon_PPC_PPCSnub_4-Super",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 4,
 	  "DamageLevel" : "Functional"
     }, 
     {
-      "ComponentDefID": "Weapon_PPC_PPCSnub_4-Mini",
+      "ComponentDefID": "Weapon_PPC_PPCSnub_4-Super",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 5,
 	  "DamageLevel" : "Functional"

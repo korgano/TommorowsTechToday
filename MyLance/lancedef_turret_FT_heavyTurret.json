@@ -26,7 +26,8 @@
          "unitTagSet" : {
             "items" : [
                "unit_heavy",
-               "unit_turret"
+               "unit_turret",
+               "unit_ft"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
@@ -37,7 +38,7 @@
          },
          "pilotTagSet" : {
             "items" : [
-				"pilot_turret_d7"
+				"pilot_fp_turret"
            ],
             "tagSetSourceFile" : "Tags/PilotTags"
          },
@@ -53,7 +54,8 @@
          "unitTagSet" : {
             "items" : [
                "unit_heavy",
-               "unit_turret"
+               "unit_turret",
+               "unit_ft"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
@@ -64,7 +66,7 @@
          },
          "pilotTagSet" : {
             "items" : [
-				"pilot_turret_d7"
+				"pilot_fp_turret"
             ],
             "tagSetSourceFile" : "Tags/PilotTags"
          },
@@ -80,7 +82,8 @@
          "unitTagSet" : {
             "items" : [
                "unit_heavy",
-               "unit_turret"
+               "unit_turret",
+               "unit_ft"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
@@ -91,7 +94,7 @@
          },
          "pilotTagSet" : {
             "items" : [
-				"pilot_turret_d7"
+				"pilot_fp_turret"
             ],
             "tagSetSourceFile" : "Tags/PilotTags"
          },
@@ -107,7 +110,8 @@
          "unitTagSet" : {
             "items" : [
                "unit_heavy",
-               "unit_turret"
+               "unit_turret",
+               "unit_ft"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
@@ -118,7 +122,7 @@
          },
          "pilotTagSet" : {
             "items" : [
-				"pilot_turret_d7"
+				"pilot_fp_turret"
             ],
             "tagSetSourceFile" : "Tags/PilotTags"
          },

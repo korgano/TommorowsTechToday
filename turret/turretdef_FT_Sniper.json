@@ -13,13 +13,14 @@
     "TurretTags": {
        "items": [
           "unit_turret",
-          "unit_heavy"         
+          "unit_heavy",
+          "unit_ft"         
        ],
        "tagSetSourceFile": ""
     },
-    "CurrentArmor" : 300,
+    "CurrentArmor" : 400,
     "CurrentInternalStructure" : 1,
-    "AssignedArmor" : 300,
+    "AssignedArmor" : 400,
     "DamageLevel" : "Functional",
     "inventory" : [
      {
@@ -59,13 +60,13 @@
        "DamageLevel" : "Functional"
      },
      {
-       "ComponentDefID": "Weapon_PPC_PPCSnub_4-Mini",
+       "ComponentDefID": "Weapon_PPC_PPCSnub_4-Super",
        "ComponentDefType": "Weapon",
        "HardpointSlot": 6,
        "DamageLevel" : "Functional"
      }, 
      {
-       "ComponentDefID": "Weapon_PPC_PPCSnub_4-Mini",
+       "ComponentDefID": "Weapon_PPC_PPCSnub_4-Super",
        "ComponentDefType": "Weapon",
        "HardpointSlot": 7,
        "DamageLevel" : "Functional"

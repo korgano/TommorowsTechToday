@@ -34,7 +34,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Magna",
         "Model" : "Particle Cluster Cannon",
-        "UIName" : "Super Snub PPC",
+        "UIName" : "Mini Snub PPC",
         "Id" : "Weapon_PPC_PPCSnub_4-Mini",
         "Name" : "Mini Snub PPC",
         "Details" : "3333's prefered antipersonnel support weapon is miniaturized Snub PPC. It doesn't have the range or damage of a Super Snub PPC, but it is a major improvement over existing weapons.",
