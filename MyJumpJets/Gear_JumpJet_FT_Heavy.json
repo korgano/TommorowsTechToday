@@ -1,5 +1,5 @@
 {
-    "JumpCapacity" : 1,
+    "JumpCapacity" : 2,
     "MinTonnage" : 60,
     "MaxTonnage" : 85,
     "Description" : {
@@ -10,12 +10,12 @@
         "Model" : "Heavy",
         "UIName" : "FT Jump Jet (H)",
         "Id" : "Gear_JumpJet_FT_Heavy",
-        "Name" : "FT Heavy Jump Jet (H)",
-        "Details" : "Jump Jets funnel superheated air to propel 'Mechs over obstacles in a controlled manner. Additionally, they may also be used to perform the dreaded 'Death from Above' attack. Heavy Jump Jets are specially designed for use on 'Mechs from 60 to 85 tons.",
+        "Name" : "FT Assault Jump Jet (H)",
+        "Details" : "3333 era Jump Jets incorporate features that used to only be found on Vectored Thrust Kits. Heavy Jump Jets are specially designed for use on 'Mechs from 60 to 85 tons.",
         "Icon" : "uixSvgIcon_action_jump"
     },
-    "BonusValueA" : null,
-    "BonusValueB" : null,
+    "BonusValueA" : "+20% Jump Distance",
+    "BonusValueB" : "+20% Damage After Jumping",
     "ComponentType" : "JumpJet",
     "ComponentSubType" : "Functionality",
     "PrefabIdentifier" : "JumpJet",
@@ -50,7 +50,7 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Jump-DamageBoost",
+                "Id" : "StatusEffect-Jump-DamageBoost-FT",
                 "Name" : "FT JUMP JETS",
                 "Details" : "Increases damage dealt after jumping by 20% and boosts the distance this unit can travel when jumping by 20%.",
                 "Icon" : "uixSvgIcon_action_jump"
@@ -95,7 +95,7 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Jump-DistanceBoost",
+                "Id" : "StatusEffect-Jump-DistanceBoost-FT",
                 "Name" : "JUMP BOOSTER",
                 "Details" : "Increases the distance this unit can travel when jumping by [AMT].",
                 "Icon" : "uixSvgIcon_action_jump"

@@ -12,7 +12,7 @@
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
     "shortDescription" : "This is the backup site for {TEAM_TAR.FactionDef.Demonym}. Take it out, and most of the pirates' supplies and personnel left on the planet are dealt with. Hopefully they haven't upgraded the defenses with LosTech, but be ready for anything.",
-    "longDescription" : "We should expect heavy resistance; the {TEAM_EMP.FactionDef.Name} was going the Royal Guards to take it out.",
+    "longDescription" : "We should expect heavy resistance; {TEAM_EMP.FactionDef.Name} was planning for the Royal Guards to take it out.",
     "salvagePotential" : 16,
     "requirementList" : [],
     "OnContractSuccessResults" : [],
@@ -868,7 +868,7 @@
                     "EncounterObjectGuid" : "40decd4d-427d-4f2e-8fc7-fc379ae4bbc2"
                 },
                 "name" : "Lance_Enemy_BaseTurrets",
-                "lanceDefId" : "Tagged",
+                "lanceDefId" : "lancedef_turret_d5_dynamic_standardTurret",
                 "lanceTagSet" : {
                     "items" : [
                         "lance_type_turret"

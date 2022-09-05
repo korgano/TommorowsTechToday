@@ -72,5 +72,267 @@
 	  "DamageLevel" : "Functional"
     } 
           
-   ]
+   ],
+   "EffectData" : [
+    {
+			"durationData": {
+				"duration": -1,
+				"stackLimit": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false,
+        "showInTargetPreview": true,
+        "hideApplicationFloatie" : false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "AbilityDefMissile_Evasion",
+				"Name": "Missile Evasion ignore",
+				"Details": "Missile attacks ignore 2 evasion."
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"appliesEachTick": false,
+				"effectsPersistAfterDestruction": false,
+				"statName": "EvasivePipsIgnored",
+				"operation": "Float_Add",
+				"modValue": "2.0",
+				"modType": "System.Single",
+				"additionalRules": "NotSet",
+				"targetCollection": "Weapon",
+				"targetWeaponCategory": "NotSet",
+				"targetWeaponType": "NotSet",
+				"targetAmmoCategory": "NotSet",
+				"targetWeaponSubType": "NotSet"
+			}
+		},
+    {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-Defense_ToHit-T3",
+                "Name" : "HARDER TO HIT",
+                "Details" : "Provides a [AMT] penalty to all attacks against this unit.",
+                "Icon" : "uixSvgIcon_ability_berserk"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "ToHitThisActor",
+                "operation" : "Float_Add",
+                "modValue" : "6.0",
+                "modType" : "System.Single"
+            }
+		},
+    {
+            "Description" : {
+                "Id" : "StatusEffect-BWCL-WidowsKissWalkSpeed",
+                "Name" : "ACTUATOR WRENCHED",
+                "Details" : "Attacks target and wrench opponent's Actuators, slowing their movement speed.",
+                "Icon" : "uixSvgIcon_ability_gimpthem"
+            },
+            "effectType" : "StatisticEffect",
+            "nature" : "Debuff",
+            "durationData" : {
+                "duration" : 1,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : 1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "effectTargetType" : "SingleTarget",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : false,
+                "hideApplicationFloatie" : false
+            },
+            "statisticData" : {
+                "statName" : "WalkSpeed",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.75",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+    },
+    {
+            "Description" : {
+                "Id" : "StatusEffect-BWCL-WidowsKissRunSpeed",
+                "Name" : "MOVEMENT SLOWED",
+                "Details" : "Attacks target and wrench opponent's Actuators, slowing their movement speed.",
+                "Icon" : "uixSvgIcon_ability_gimpthem"
+            },
+            "effectType" : "StatisticEffect",
+            "nature" : "Debuff",
+            "durationData" : {
+                "duration" : 1,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : 1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "effectTargetType" : "SingleTarget",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : false,
+                "hideApplicationFloatie" : false
+            },
+            "statisticData" : {
+                "statName" : "RunSpeed",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.75",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+    },
+    {
+      "Description" : {
+          "Id" : "StatusEffect-TurretCritBoost",
+          "Name" : "Crit Boost",
+          "Details" : "+20% Critical Hit chance.",
+          "Icon" : "uixSvgIcon_statusCrit"
+      },
+      "durationData" : {
+          "duration" : 1,
+          "stackLimit" : 1
+      },
+      "targetingData" : {
+          "effectTriggerType" : "Passive",
+          "effectTargetType" : "Creator",
+          "showInTargetPreview" : true,
+          "showInStatusPanel" : false,
+          "hideApplicationFloatie" : true
+      },
+      "effectType" : "StatisticEffect",
+      "nature" : "Buff",
+      "statisticData" : {
+          "statName" : "CriticalChanceMultiplier",
+          "operation" : "Float_Multiply",
+          "modValue" : "1.20",
+          "modType" : "System.Single",
+          "additionalRules" : "NotSet",
+          "targetCollection" : "Weapon",
+          "targetWeaponCategory" : "NotSet",
+          "targetWeaponType" : "NotSet",
+          "targetAmmoCategory" : "NotSet",
+          "targetWeaponSubType" : "NotSet"
+      }
+  },
+  {
+    "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+    },
+    "targetingData": {
+        "effectTriggerType": "OnActivation",
+        "effectTargetType": "AllLanceMates",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+    },
+    "effectType": "StatisticEffect",
+    "Description": {
+        "Id": "AbilityDefT10Aa_LongRange",
+        "Name": "Eagle Eye",
+        "Details": "The long/max range brackets on this mech's weapons are increased by 30%, sensor and sight ranges are increased by 30%, and this mech gets a 10% boost to called shots.",
+        "Icon": "lv_eye-target"
+    },
+    "nature": "Buff",
+    "statisticData": {
+        "statName": "LongRange",
+        "operation": "Float_Multiply",
+        "modValue": "1.30",
+        "modType": "System.Single",
+"targetCollection": "Weapon"
+    }
+},
+{
+    "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+    },
+    "targetingData": {
+        "effectTriggerType": "OnActivation",
+        "effectTargetType": "AllLanceMates",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+    },
+    "effectType": "StatisticEffect",
+    "Description": {
+        "Id": "AbilityDefT10Aa_MaxRange",
+        "Name": "Max Range Increase",
+        "Details": "The max range brackets on this mech's weapons are increased by 30%.",
+        "Icon": "lv_eye-target"
+    },
+    "nature": "Buff",
+    "statisticData": {
+        "statName": "MaxRange",
+        "operation": "Float_Multiply",
+        "modValue": "1.30",
+        "modType": "System.Single",
+"targetCollection": "Weapon"
+    }
+},
+{
+    "durationData": {
+        "duration": -1
+    },
+    "targetingData": {
+        "effectTriggerType": "OnActivation",
+        "effectTargetType": "AllLanceMates",
+"showInTargetPreview": false,
+"showInStatusPanel": false
+    },
+    "effectType": "StatisticEffect",
+    "Description": {
+        "Id": "AbilityDefT10Aa_CalledShot",
+        "Name": "Improved Called Shot",
+        "Details": "Called Shots twice as reliable",
+        "Icon": "lv_eye-target"
+    },
+    "statisticData": {
+        "statName": "CalledShotBonusMultiplier",
+        "operation": "Float_Multiply",
+        "modValue": "1.1",
+        "modType": "System.Single"
+    }
+}
+	]
 }

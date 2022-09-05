@@ -148,15 +148,135 @@
 					"value": "500000",
 					"set": false,
 					"valueConstant": null
-				  }
+				  },
+				  {
+					"typeString" : "System.Int32",
+					"name" : "Item.WeaponDef.Weapon_Gauss_Gauss_4-Future",
+					"value" : "4",
+					"set" : false,
+					"valueConstant" : null
+				},
+				{
+					"typeString" : "System.Int32",
+					"name" : "Item.WeaponDef.Weapon_Gauss_Gauss_3-Future",
+					"value" : "4",
+					"set" : false,
+					"valueConstant" : null
+				},
+				{
+					"typeString" : "System.Int32",
+					"name" : "Item.WeaponDef.Weapon_COIL_COIL-S_1-Future",
+					"value" : "6",
+					"set" : false,
+					"valueConstant" : null
+				},
+				{
+					"typeString" : "System.Int32",
+					"name" : "Item.WeaponDef.Weapon_COIL_COIL-M_1-Future",
+					"value" : "6",
+					"set" : false,
+					"valueConstant" : null
+				},
+				{
+					"typeString" : "System.Int32",
+					"name" : "Item.WeaponDef.Weapon_COIL_COIL-L_1-Future",
+					"value" : "6",
+					"set" : false,
+					"valueConstant" : null
+				},
+				{
+					"typeString" : "System.Int32",
+					"name" : "Item.WeaponDef.Weapon_LRM_LRM5_4-Future",
+					"value" : "4",
+					"set" : false,
+					"valueConstant" : null
+				},
+				{
+					"typeString" : "System.Int32",
+					"name" : "Item.WeaponDef.Weapon_LRM_LRM10_4-Future",
+					"value" : "4",
+					"set" : false,
+					"valueConstant" : null
+				},
+				{
+					"typeString" : "System.Int32",
+					"name" : "Item.WeaponDef.Weapon_LRM_LRM15_4-Future",
+					"value" : "4",
+					"set" : false,
+					"valueConstant" : null
+				},
+				{
+					"typeString" : "System.Int32",
+					"name" : "Item.WeaponDef.Weapon_LRM_LRM20_4-Future",
+					"value" : "4",
+					"set" : false,
+					"valueConstant" : null
+				},
+				{
+					"typeString" : "System.Int32",
+					"name" : "Item.WeaponDef.Weapon_PPC_PPCSnub_4-Super",
+					"value" : "6",
+					"set" : false,
+					"valueConstant" : null
+				},
+				{
+					"typeString" : "System.Int32",
+					"name" : "Item.WeaponDef.Weapon_PPC_PPCSnub_4-Mini",
+					"value" : "6",
+					"set" : false,
+					"valueConstant" : null
+				},
+				{
+					"typeString" : "System.Int32",
+					"name" : "Item.WeaponDef.Weapon_PPC_PPCER_3-Future",
+					"value" : "6",
+					"set" : false,
+					"valueConstant" : null
+				},
+				{
+					"typeString" : "System.Int32",
+					"name" : "Item.WeaponDef.Weapon_SRM_SRM4_5-Future",
+					"value" : "4",
+					"set" : false,
+					"valueConstant" : null
+				},
+				{
+					"typeString" : "System.Int32",
+					"name" : "Item.WeaponDef.Weapon_SRM_SRM6_4-Future",
+					"value" : "4",
+					"set" : false,
+					"valueConstant" : null
+				},
+				{
+					"typeString" : "System.Int32",
+					"name" : "Item.HeatSinkDef.Gear_HeatSink_Thermo_Cyclic",
+					"value" : "8",
+					"set" : false,
+					"valueConstant" : null
+				},
+				{
+					"typeString" : "System.Int32",
+					"name" : "Item.JumpJetDef.Gear_JumpJet_FT_Assault",
+					"value" : "6",
+					"set" : false,
+					"valueConstant" : null
+				},
+				{
+					"typeString" : "System.Int32",
+					"name" : "Item.JumpJetDef.Gear_JumpJet_FT_Heavy",
+					"value" : "6",
+					"set" : false,
+					"valueConstant" : null
+				},
+				{
+					"typeString" : "System.Int32",
+					"name" : "Item.JumpJetDef.Gear_JumpJet_FT_Standard",
+					"value" : "6",
+					"set" : false,
+					"valueConstant" : null
+				}
 				],
 				"Actions": [
-					{
-						"Type" : "System_ShowRewards",
-						"value" : "itemCollection_loot_FP_event1-0",
-						"valueConstant" : null,
-						"additionalValues" : null
-					},
 				  {
 					"Type": "System_PauseNotification",
 					"value": "Great news, Commander. Once we got inside those wrecks, we found a pair of intact [[DM.MechDefs[mechdef_blackknight_BL-6b-KNT],Black Knight]]s, a [[DM.MechDefs[mechdef_rifleman_RFL-3N],Rifleman]], and a [[DM.MechDefs[mechdef_hunchback_HBK-4P],Hunchback]]. It'll take a bit of work, but we'll get them ready for combat. Swing by the Mech Bay to check them out and order a Refit.",
@@ -249,15 +369,135 @@
 					  "value": "500000",
 					  "set": false,
 					  "valueConstant": null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_Gauss_Gauss_4-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_Gauss_Gauss_3-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_COIL_COIL-S_1-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_COIL_COIL-M_1-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_COIL_COIL-L_1-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_LRM_LRM5_4-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_LRM_LRM10_4-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_LRM_LRM15_4-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_LRM_LRM20_4-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_PPC_PPCSnub_4-Super",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_PPC_PPCSnub_4-Mini",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_PPC_PPCER_3-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_SRM_SRM4_5-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_SRM_SRM6_4-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.HeatSinkDef.Gear_HeatSink_Thermo_Cyclic",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.JumpJetDef.Gear_JumpJet_FT_Assault",
+						"value" : "6",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.JumpJetDef.Gear_JumpJet_FT_Heavy",
+						"value" : "6",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.JumpJetDef.Gear_JumpJet_FT_Standard",
+						"value" : "6",
+						"set" : false,
+						"valueConstant" : null
 					}
 				  ],
 				  "Actions": [
-					{
-						"Type" : "System_ShowRewards",
-						"value" : "itemCollection_loot_FP_event1-1",
-						"valueConstant" : null,
-						"additionalValues" : null
-					},
 					{
 					  "Type": "System_PauseNotification",
 					  "value": "Great news, Commander. Once we got inside the wreck of whoever attacked those pirates, we found a pair of intact [[DM.MechDefs[mechdef_blackknight_BL-6b-KNT],Black Knight]]s and a pair of [[DM.MechDefs[mechdef_griffin_GRF-4N],Griffin]s. All with SLDF Royal grade equipment. Wonder how these wound up out here in the Periphery.",
@@ -388,15 +628,135 @@
 					  "value": "500000",
 					  "set": false,
 					  "valueConstant": null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_Gauss_Gauss_4-Future",
+						"value" : "2",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_Gauss_Gauss_3-Future",
+						"value" : "2",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_COIL_COIL-S_1-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_COIL_COIL-M_1-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_COIL_COIL-L_1-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_LRM_LRM5_4-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_LRM_LRM10_4-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_LRM_LRM15_4-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_LRM_LRM20_4-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_PPC_PPCSnub_4-Super",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_PPC_PPCSnub_4-Mini",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_PPC_PPCER_3-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_SRM_SRM4_5-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_SRM_SRM6_4-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.HeatSinkDef.Gear_HeatSink_Thermo_Cyclic",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.JumpJetDef.Gear_JumpJet_FT_Assault",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.JumpJetDef.Gear_JumpJet_FT_Heavy",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.JumpJetDef.Gear_JumpJet_FT_Standard",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
 					}
 				  ],
 				  "Actions": [
-					{
-						"Type" : "System_ShowRewards",
-						"value" : "itemCollection_loot_FP_event1-2a",
-						"valueConstant" : null,
-						"additionalValues" : null
-					},
 					{
 					  "Type": "System_PauseNotification",
 					  "value": "Well, Commander, we only got a [[DM.MechDefs[mechdef_rifleman_RFL-3N],Rifleman]] and a [[DM.MechDefs[mechdef_hunchback_HBK-4P],Hunchback]] after all that hard work. Damn shame - there were some rare Mechs in that other DropShip. It'll take a bit of work, but we'll get them ready for combat. Swing by the Mech Bay to check them out and order a Refit.",
@@ -490,15 +850,135 @@
 					  "value": "3",
 					  "set": false,
 					  "valueConstant": null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_Gauss_Gauss_4-Future",
+						"value" : "2",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_Gauss_Gauss_3-Future",
+						"value" : "2",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_COIL_COIL-S_1-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_COIL_COIL-M_1-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_COIL_COIL-L_1-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_LRM_LRM5_4-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_LRM_LRM10_4-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_LRM_LRM15_4-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_LRM_LRM20_4-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_PPC_PPCSnub_4-Super",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_PPC_PPCSnub_4-Mini",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_PPC_PPCER_3-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_SRM_SRM4_5-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.WeaponDef.Weapon_SRM_SRM6_4-Future",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.HeatSinkDef.Gear_HeatSink_Thermo_Cyclic",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.JumpJetDef.Gear_JumpJet_FT_Assault",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.JumpJetDef.Gear_JumpJet_FT_Heavy",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
+					},
+					{
+						"typeString" : "System.Int32",
+						"name" : "Item.JumpJetDef.Gear_JumpJet_FT_Standard",
+						"value" : "4",
+						"set" : false,
+						"valueConstant" : null
 					}
 				  ],
 				  "Actions": [
-					{
-						"Type" : "System_ShowRewards",
-						"value" : "itemCollection_loot_FP_event1-2b",
-						"valueConstant" : null,
-						"additionalValues" : null
-					},
 					{
 					  "Type": "System_PauseNotification",
 					  "value": "That was a hell of a deal you made, Commander. We got ourselves a [[DM.MechDefs[mechdef_blackknight_BL-6b-KNT],Black Knight]], a [[DM.MechDefs[mechdef_griffin_GRF-4N],Griffin], and a [[DM.MechDefs[mechdef_hunchback_HBK-4P],Hunchback]]. Two out of three even come with SLDF Royal grade hardware! Wish we could've gotten more, but the Aurigans need them even more than we do.",

@@ -1,5 +1,5 @@
 {
-    "JumpCapacity" : 1,
+    "JumpCapacity" : 2,
     "MinTonnage" : 10,
     "MaxTonnage" : 55,
     "Description" : {
@@ -8,18 +8,17 @@
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "Standard",
-        "UIName" : "Jump Jet (S)",
-        "Id" : "Gear_JumpJet_Generic_Standard",
-        "Name" : "Standard Jump Jet (S)",
-        "Details" : "Jump Jets funnel superheated air to propel 'Mechs over obstacles in a controlled manner. Additionally, they may also be used to perform the dreaded 'Death from Above' attack. Standard Jump Jets are specially designed for use on 'Mechs up to 55 tons.",
+        "UIName" : "FT Jump Jet (S)",
+        "Id" : "Gear_JumpJet_FT_Standard",
+        "Name" : "FT Jump Jet (S)",
+        "Details" : "3333 era Jump Jets incorporate features that used to only be found on Vectored Thrust Kits. They act as normal Jump Jets, but in addition, their specialized thrust system optimizes propulsion and control during flight. This provides superior poise for subsequent attacks, increasing the damage dealt by any shots fired.",
         "Icon" : "uixSvgIcon_action_jump"
     },
-    "BonusValueA" : null,
-    "BonusValueB" : null,
+    "BonusValueA" : "+ 20% Jump Dist.",
+    "BonusValueB" : "+ 20% Dmg. After Jump",
     "ComponentType" : "JumpJet",
     "ComponentSubType" : "Functionality",
     "PrefabIdentifier" : "JumpJet",
-    "BattleValue" : 0,
     "InventorySize" : 1,
     "Tonnage" : 1,
     "AllowedLocations" : "Torso, Legs",
@@ -50,8 +49,8 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Jump-DamageBoost",
-                "Name" : "FT JUMP JETS",
+                "Id" : "StatusEffect-Jump-DamageBoost-FT",
+                "Name" : "VECTORED THRUST KIT",
                 "Details" : "Increases damage dealt after jumping by 20% and boosts the distance this unit can travel when jumping by 20%.",
                 "Icon" : "uixSvgIcon_action_jump"
             },
@@ -95,7 +94,7 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Jump-DistanceBoost",
+                "Id" : "StatusEffect-Jump-DistanceBoost-FT",
                 "Name" : "JUMP BOOSTER",
                 "Details" : "Increases the distance this unit can travel when jumping by [AMT].",
                 "Icon" : "uixSvgIcon_action_jump"
@@ -111,8 +110,7 @@
     ],
     "ComponentTags" : {
         "items" : [
-            "component_type_stock",
-			"BLACKLISTED"
+            "BLACKLISTED"
         ],
         "tagSetSourceFile" : ""
     }
