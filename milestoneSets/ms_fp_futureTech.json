@@ -1420,21 +1420,21 @@
                         },
                         {
                             "typeString" : "System.Int32",
-                            "name" : "Item.JumpJetDef.Gear_JumpJet_FT_Assault",
+                            "name" : "Item.JumpJetDef.Gear_JumpJet_Generic_Assault_Future",
                             "value" : "8",
                             "set" : false,
                             "valueConstant" : null
                         },
                         {
                             "typeString" : "System.Int32",
-                            "name" : "Item.JumpJetDef.Gear_JumpJet_FT_Heavy",
+                            "name" : "Item.JumpJetDef.Gear_JumpJet_Generic_Heavy_Future",
                             "value" : "8",
                             "set" : false,
                             "valueConstant" : null
                         },
                         {
                             "typeString" : "System.Int32",
-                            "name" : "Item.JumpJetDef.Gear_JumpJet_FT_Standard",
+                            "name" : "Item.JumpJetDef.Gear_JumpJet_Generic_Standard_Future",
                             "value" : "8",
                             "set" : false,
                             "valueConstant" : null
