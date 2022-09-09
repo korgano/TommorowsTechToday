@@ -14,7 +14,8 @@
       "items": [
          "unit_turret",
          "unit_heavy",
-         "unit_ft"         
+         "unit_ft",
+         "BLACKLISTED"         
       ],
       "tagSetSourceFile": ""
    },

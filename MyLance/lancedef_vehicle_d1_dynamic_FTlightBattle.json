@@ -11,7 +11,9 @@
    "Difficulty" : 6,
    "LanceTags" : {
       "items" : ["AuriganPirates",
-	  "lance_type_vehicle"],
+	  "lance_type_vehicle",
+   "BLACKLISTED"
+   ],
       "tagSetSourceFile" : "Tags/LanceTags"
    },
    "LanceUnits" : [
