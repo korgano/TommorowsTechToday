@@ -2,7 +2,7 @@
 
 Tommorow's Tech Today is a BattleTech Flashpoint that intentionally breaks from canon with the tech it gives you as a reward.
 
-Currently in extreme Alpha state.
+Currently in functional beta state.
 
 Working features:
 
@@ -10,16 +10,12 @@ Working features:
 
 -Heat Sink Converter - Argo upgrade that automatically converts single heat sinks into same sized Double Heat Sink (DHS) equivalents
 
--First mission of the included Flashpoint
+-All Flashpoint missions and conversations.
 
 Currently bugged:
--Second flashpoint conversation (user cannot transition to Argo drop bay for mission, mission does not spawn after Flashpoint decision)
+-N/A
 
 Untested:
--All missions past second conversation
-
--Flashpoint specific events
-
--Advanced Gear
+-Post-Flashpoint events
 
 Any and all bug fixing help appreciated.
