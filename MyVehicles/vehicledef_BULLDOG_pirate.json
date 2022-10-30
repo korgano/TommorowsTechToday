@@ -14,7 +14,8 @@
       "items": [
          "unit_vehicle",
          "unit_heavy",
-         "unit_tracks"
+         "unit_tracks",
+         "BLACKLISTED"
       ],
       "tagSetSourceFile": ""
    },

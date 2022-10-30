@@ -15,7 +15,7 @@
     "Damage" : 4,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
-    "EvasivePipsIgnored" : 0,
+    "EvasivePipsIgnored" : 2,
     "DamageVariance" : 0,
     "HeatDamage" : 5,
     "AccuracyModifier" : 0,
@@ -31,7 +31,7 @@
     "Description" : {
         "Cost" : 900000,
         "Rarity" : 10,
-        "Purchasable" : false,
+        "Purchasable" : true,
         "Manufacturer" : "Zeus",
         "Model" : "Long-Range Missile Launcher",
         "UIName" : "LRM15 (FT)",

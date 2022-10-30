@@ -83,7 +83,13 @@
        "ComponentDefType": "HeatSink",
        "HardpointSlot": -1,
        "DamageLevel" : "Functional"
-     } 
+     },
+     {
+        "ComponentDefID": "Gear_Cockpit_Majesty_M_M_180KL",
+        "ComponentDefType": "Upgrade",
+        "HardpointSlot": -1,
+        "DamageLevel" : "Functional"
+      }
            
     ],
     "EffectData" : [

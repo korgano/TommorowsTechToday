@@ -9,7 +9,7 @@
         "Manufacturer" : "Generic",
         "Model" : "Heavy",
         "UIName" : "FT Jump Jet (H)",
-        "Id" : "Gear_JumpJet_FT_Heavy",
+        "Id" : "Gear_JumpJet_Generic_Heavy_Future",
         "Name" : "FT Assault Jump Jet (H)",
         "Details" : "3333 era Jump Jets incorporate features that used to only be found on Vectored Thrust Kits. Heavy Jump Jets are specially designed for use on 'Mechs from 60 to 85 tons.",
         "Icon" : "uixSvgIcon_action_jump"

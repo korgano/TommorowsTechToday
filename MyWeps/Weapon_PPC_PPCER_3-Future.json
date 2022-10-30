@@ -15,7 +15,7 @@
     "Damage" : 80,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
-    "EvasivePipsIgnored" : 0,
+    "EvasivePipsIgnored" : 2,
     "DamageVariance" : 0,
     "HeatDamage" : 10,
     "AccuracyModifier" : 0,
@@ -31,7 +31,7 @@
     "Description" : {
         "Cost" : 9000000,
         "Rarity" : 99,
-        "Purchasable" : false,
+        "Purchasable" : true,
         "Manufacturer" : "Tiegart",
         "Model" : "Extended-Range PPC",
         "UIName" : "Hyper PPC",
