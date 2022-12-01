@@ -863,14 +863,6 @@
                     "Stats" : null,
                     "Actions" : [
                         {
-                            "Type" : "System_SimGameCharacterVisible",
-                            "value" : "True",
-                            "valueConstant" : null,
-                            "additionalValues" : [
-                                "Alexander"
-                            ]
-                        },
-                        {
                             "Type" : "System_StartConversation",
                             "value" : "9c4a18d91bd5734d69a0bed7",
                             "valueConstant" : null,
