@@ -29,7 +29,7 @@
     "PotentialEmployers" : [
         "AuriganRestoration"
     ],
-    "TargetFaction" : "Player1sMercUnit",
+    "TargetFaction" : "AuriganPirates",
     "AllowRefitTime" : true,
     "FlashpointLength" : "MEDIUM",
     "Repeatable" : false,
@@ -40,7 +40,7 @@
     "InProgressTimeout" : 0,
     "RewardCollectionID" : "itemCollection_loot_FP_futureTech_complete",
     "UnitDropTonnageHint" : "None",
-    "LanceDropTonnageHint" : "Heavy",
+    "LanceDropTonnageHint" : "None",
     "FlashpointShortDescription" : "Lady Arano has a high priority job for us. Seems like some pirates have gotten a hold on some LosTech and started trouble in the border regions. She wants us to help her forces take out the pirates' base of operations, in exchange for a cut of LosTech and a healthy payment.",
     "FlashpointDescriberCastDefId" : "castDef_DariusDefault",
     "Tags" : {
