@@ -550,7 +550,7 @@
     ],
     "extractionOverrideList" : [],
     "overwriteMissionCompleteWhenAutoComplete" : true,
-    "overrideAutoCompleteDialogueId" : "c_fp_futureTech_2A_ConvoyAmbush",
+    "overrideAutoCompleteDialogueId" : "DialogBucketDef_c_fp_futureTech_2A_ConvoyAmbush",
     "disableNegotations" : false,
     "disableLanceConfiguration" : false,
     "disableCancelButton" : false,
